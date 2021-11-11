@@ -38,7 +38,7 @@ a, table.table a{ // need to override the default link color of table.table
   margin-bottom: 0.2rem;
   // text-transform: uppercase !important;
   font-family: Helvetica;
-  font-weight: 700;
+  font-weight: bolder;
   a {
     color: inherit;
     &:hover {
@@ -70,7 +70,7 @@ a, table.table a{ // need to override the default link color of table.table
   background-color: var(--global-navbar-bg-color);
   opacity: 0.95;
   font-family: Helvetica;
-  font-weight: 600;
+  font-weight: bolder;
 }
 .navbar.navbar-light {
   a {
@@ -93,7 +93,7 @@ a, table.table a{ // need to override the default link color of table.table
   }
   .navbar-nav .nav-item.active>.nav-link {
       background-color: inherit;
-      font-weight: bolder;
+      // font-weight: bolder;
       color: var(--global-theme-color);
       &:hover {
         color: var(--global-hover-color);
