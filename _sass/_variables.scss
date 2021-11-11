@@ -34,6 +34,11 @@ $black-color: #000000 !default;
 
 // Theme colors
 
-$code-bg-color-light:     rgba($purple-color, 0.05);
-$code-bg-color-dark:      #2c3237 !default;
+$bg-color-light:             $white-color !default;
+$bg-color-light-darker:      darken($bg-color-light, 10%);
+$bg-color-dark:              #22272e !default;
+$bg-color-dark-lighter:      lighten($bg-color-dark, 10%);
+
+$code-bg-color-light:     rgba($blue-color, 0.05);
+$code-bg-color-dark:      #22272e !default;
 

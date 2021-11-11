@@ -13,14 +13,13 @@ footer_text: >
 icon: assets/img/pf32.png # the emoji used as the favicon
 url: https://pierrefdz.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
-last_updated: false # set to true if you want to display last updated in the footer
-impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
+last_updated: true # set to true if you want to display last updated in the footer
 
 # -----------------------------------------------------------------------------
 # Layout
 # -----------------------------------------------------------------------------
 
-navbar_fixed: true
+navbar_fixed: false
 footer_fixed: false
 
 # Dimensions
@@ -40,24 +39,13 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # -----------------------------------------------------------------------------
 
 github_username: pierrefdz # your GitHub user name
-gitlab_username: # your GitLab user name
 twitter_username: pierrefdz # your Twitter handle
 linkedin_username: pierrefdz # your LinkedIn user name
-scholar_userid: # your Google Scholar ID
-orcid_id: # your ORCID ID
-medium_username: # your Medium username
-quora_username: # your Quora username
-publons_id: # your ID on Publons
-research_gate_profile: # your profile on ResearchGate
-blogger_url: # your blogger URL
 work_url: # work page URL
-keybase_username: # your keybase user name
-wikidata_id: # your wikidata id
+scholar_userid: # your Google Scholar ID
 
 contact_note: >
 
-google_analytics: UA-XXXXXXXXX # out your google-analytics code
-panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 
 # -----------------------------------------------------------------------------
 # Blog
@@ -80,15 +68,13 @@ disqus_shortname: # put your disqus shortname
 
 collections:
   news:
-    defaults:
-      layout: post
     output: true
     permalink: /news/:path/
-  projects:
+  publications:
     output: true
-    permalink: /projects/:path/
+    permalink: /publications/:path/
 
-news_limit: 5
+news_limit: 10
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -124,8 +110,6 @@ keep_files:
 plugins:
   - jekyll-email-protect
   - jekyll-github-metadata
-  - jekyll-paginate-v2
-  - jekyll/scholar
   - jekyll-twitter-plugin
   - jemoji
 
@@ -133,45 +117,12 @@ plugins:
 github: [metadata]
 
 # -----------------------------------------------------------------------------
-# Jekyll Scholar
-# -----------------------------------------------------------------------------
-
-scholar:
-
-  last_name: Fernandez
-  first_name: [Pierre, P.]
-
-  style: apa
-  locale: en
-
-  source: /_bibliography/
-  bibliography: papers.bib
-  bibliography_template: bib
-
-  replace_strings: true
-  join_strings: true
-
-  details_dir: bibliography
-  details_layout: bibtex.html
-  details_link: Details
-
-  query: "@*"
-
-# -----------------------------------------------------------------------------
 # Optional Features
 # -----------------------------------------------------------------------------
 
 enable_google_analytics:    false  # enables google analytics
-enable_panelbear_analytics: false  # enables panelbear analytics
-enable_mansory:             true   # enables automatic project cards arangement
-enable_math:                true   # enables math typesetting (uses MathJax)
-enable_tooltips:            false  # enables automatic tooltip links generated
-                                   # for each section titles on pages and posts
+enable_math:                true   # enables math typesetting (uses MathJax)=
 enable_darkmode:            true   # enables switching between light/dark modes
-enable_navbar_social:       false  # enables displaying social links in the
-                                   # navbar on the about page
-enable_project_categories:  true   # enables categorization of projects into
-                                   # multiple categories
 
 # -----------------------------------------------------------------------------
 # Library versions
@@ -193,9 +144,6 @@ jquery:
   integrity: "sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
 mathjax:
   version: "3.1.2"
-mansory:
-  version: "4.2.2"
-  integrity: "sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI="
 mdb:
   version: "4.19.1"
   integrity:

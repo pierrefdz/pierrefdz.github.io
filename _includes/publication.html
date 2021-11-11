@@ -1,0 +1,6 @@
+<tr>
+    <th scope="row">{{ publication.date | date: "%b %-d, %Y" }}</th>
+    <td>
+        <a href="{{ publication.url | relative_url }}">{{ publication.title }}</a>
+    </td>
+</tr>

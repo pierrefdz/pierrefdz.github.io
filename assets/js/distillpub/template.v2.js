@@ -131,13 +131,13 @@
       this.citationsCollected = false;
 
       //
-      // Assigned from posts.csv
+      // Assigned from pages.csv
       //
 
       //  publishedDate: 2016-09-08T07:00:00.000Z,
       //  tags: [ 'rnn' ],
       //  distillPath: '2016/augmented-rnns',
-      //  githubPath: 'distillpub/post--augmented-rnns',
+      //  githubPath: 'distillpub/page--augmented-rnns',
       //  doiSuffix: 1,
 
       //
@@ -165,7 +165,7 @@
       // Assigned from publishing process
       //
 
-      //  githubCompareUpdatesUrl: 'https://github.com/distillpub/post--augmented-rnns/compare/1596e094d8943d2dc0ea445d92071129c6419c59...3bd9209e0c24d020f87cf6152dcecc6017cbc193',
+      //  githubCompareUpdatesUrl: 'https://github.com/distillpub/page--augmented-rnns/compare/1596e094d8943d2dc0ea445d92071129c6419c59...3bd9209e0c24d020f87cf6152dcecc6017cbc193',
       //  updatedDate: 2017-03-21T07:13:16.000Z,
       //  doi: '10.23915/distill.00001',
       this.doi = undefined;
@@ -200,7 +200,7 @@
       }
     }
 
-    // 'https://github.com/distillpub/post--augmented-rnns',
+    // 'https://github.com/distillpub/page--augmented-rnns',
     get githubUrl() {
       if (this.githubPath) {
         return 'https://github.com/' + this.githubPath;
@@ -2660,7 +2660,7 @@ d-citation-list .references .title {
   				insertHighlightedCode(evt.data);
   			};
 
-  			worker.postMessage(JSON.stringify({
+  			worker.pageMessage(JSON.stringify({
   				language: env.language,
   				code: env.code,
   				immediateClose: true
@@ -3017,7 +3017,7 @@ d-citation-list .references .title {
   				code = message.code,
   				immediateClose = message.immediateClose;
 
-  			_self.postMessage(_.highlight(code, _.languages[lang], lang));
+  			_self.pageMessage(_.highlight(code, _.languages[lang], lang));
   			if (immediateClose) {
   				_self.close();
   			}

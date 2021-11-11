@@ -134,13 +134,13 @@
       this.citationsCollected = false;
 
       //
-      // Assigned from posts.csv
+      // Assigned from pages.csv
       //
 
       //  publishedDate: 2016-09-08T07:00:00.000Z,
       //  tags: [ 'rnn' ],
       //  distillPath: '2016/augmented-rnns',
-      //  githubPath: 'distillpub/post--augmented-rnns',
+      //  githubPath: 'distillpub/page--augmented-rnns',
       //  doiSuffix: 1,
 
       //
@@ -168,7 +168,7 @@
       // Assigned from publishing process
       //
 
-      //  githubCompareUpdatesUrl: 'https://github.com/distillpub/post--augmented-rnns/compare/1596e094d8943d2dc0ea445d92071129c6419c59...3bd9209e0c24d020f87cf6152dcecc6017cbc193',
+      //  githubCompareUpdatesUrl: 'https://github.com/distillpub/page--augmented-rnns/compare/1596e094d8943d2dc0ea445d92071129c6419c59...3bd9209e0c24d020f87cf6152dcecc6017cbc193',
       //  updatedDate: 2017-03-21T07:13:16.000Z,
       //  doi: '10.23915/distill.00001',
       this.doi = undefined;
@@ -203,7 +203,7 @@
       }
     }
 
-    // 'https://github.com/distillpub/post--augmented-rnns',
+    // 'https://github.com/distillpub/page--augmented-rnns',
     get githubUrl() {
       if (this.githubPath) {
         return 'https://github.com/' + this.githubPath;
@@ -4714,7 +4714,7 @@
           cols.push(col);
 
           if (c < nc - 1 || group.value.hskipBeforeAndAfter) {
-              sepwidth = _utils2.default.deflt(colDescr.postgap, arraycolsep);
+              sepwidth = _utils2.default.deflt(colDescr.pagegap, arraycolsep);
               if (sepwidth !== 0) {
                   colSep = (0, _buildCommon.makeSpan)(["arraycolsep"], []);
                   colSep.style.width = sepwidth + "em";
@@ -5734,7 +5734,7 @@
           node = new _mathMLTree2.default.MathNode("mtext", [text]);
       } else if (/[0-9]/.test(group.value)) {
           // TODO(kevinb) merge adjacent <mn> nodes
-          // do it as a post processing step
+          // do it as a page processing step
           node = new _mathMLTree2.default.MathNode("mn", [text]);
       } else if (group.value === "\\prime") {
           node = new _mathMLTree2.default.MathNode("mo", [text]);
@@ -7518,11 +7518,11 @@
               // For now we use the metrics for TEXT style which is what we were
               // doing before.  Before attempting to get the current style we
               // should look at TeX's behavior especially for \over and matrices.
-              postgap: 1.0 }, {
+              pagegap: 1.0 }, {
               type: "align",
               align: "l",
               pregap: 0,
-              postgap: 0
+              pagegap: 0
           }]
       };
       res = parseArray(context.parser, res, dCellStyle(context.envName));
@@ -7573,7 +7573,7 @@
               type: "align",
               align: align,
               pregap: pregap,
-              postgap: 0
+              pagegap: 0
           };
       }
       return res;
@@ -11717,7 +11717,7 @@
       "mm": 7227 / 2540, // millimeter
       "cm": 7227 / 254, // centimeter
       "in": 72.27, // inch
-      "bp": 803 / 800, // big (PostScript) points
+      "bp": 803 / 800, // big (pageScript) points
       "pc": 12, // pica
       "dd": 1238 / 1157, // didot
       "cc": 14856 / 1157, // cicero (12 didot)
@@ -12635,7 +12635,7 @@
       .replace(/([a-z])'([a-z])/ig, '$1\u2019$2') // conjunction's possession
       .replace(/((\u2018[^']*)|[a-z])'([^0-9]|$)/ig, '$1\u2019$3') // ending '
       .replace(/(\u2018)([0-9]{2}[^\u2019]*)(\u2018([^0-9]|$)|$|\u2019[a-z])/ig, '\u2019$2$3') // abbrev. years like '93
-      .replace(/(\B|^)\u2018(?=([^\u2019]*\u2019\b)*([^\u2019\u2018]*\W[\u2019\u2018]\b|[^\u2019\u2018]*$))/ig, '$1\u2019') // backwards apostrophe
+      .replace(/(\B|^)\u2018(?=([^\u2019]*\u2019\b)*([^\u2019\u2018]*\W[\u2019\u2018]\b|[^\u2019\u2018]*$))/ig, '$1\u2019') // backwards apagerophe
       .replace(/'''/g, '\u2034') // triple prime
       .replace(/("|'')/g, '\u2033') // double prime
       .replace(/'/g, '\u2032');
