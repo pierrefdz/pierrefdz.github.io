@@ -10,7 +10,7 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Research Intern at FAIR, interested in Computer Vision and Graphics
 footer_text: >
 
-icon: assets/img/pf32.png # the emoji used as the favicon
+icon: assets/img/icon.png # the emoji used as the favicon
 url: https://pierrefdz.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
 last_updated: true # set to true if you want to display last updated in the footer
@@ -47,20 +47,6 @@ scholar_userid: # your Google Scholar ID
 contact_note: >
 
 
-# -----------------------------------------------------------------------------
-# Blog
-# -----------------------------------------------------------------------------
-
-blog_name:  # your blog must have a name for it to show up in the nav bar
-blog_description: If to put a blog, here it is 
-permalink: /blog/:year/:title/
-
-# Pagination
-pagination:
-  enabled: true
-
-# Comments
-disqus_shortname: # put your disqus shortname
 
 # -----------------------------------------------------------------------------
 # Collections

@@ -2,7 +2,7 @@
 layout: page
 permalink: /
 title: Home
-description: Graduate student at École polytechnique and Paris-Saclay University, majoring in Mathematics & Computer Science
+description: Incoming PhD student at Inria and FAIR. Studied at École polytechnique and Paris-Saclay University.
 
 profile:
   image: avatar.jpg
@@ -16,15 +16,13 @@ news: true  # includes a list of news items
 
 <div class="row">
   <div class="col-md-8" markdown="1">
-  Hi! 
+  Hi 🙋🏼‍♂️! 
 
-  I am a graduate student at Ecole polytechnique studying Machine Learning and Computer Vision. I am also pursuing a Master's degree in Mathematics, Vision and Learning at Paris-Saclay University in partnership with Ponts Paris-Tech. 
+  I am an incoming AI Research PhD student at Facebook AI Research (FAIR) and INRIA Rennes, advised by [Matthijs Douze](https://scholar.google.fr/citations?user=0eFZtREAAAAJ&hl=fr), [Hervé Jégou](https://scholar.google.fr/citations?user=1lcY2z4AAAAJ&hl=fr) and [Teddy Furon](https://scholar.google.fr/citations?user=aLUbWzAAAAAJ&hl=fr). I am interested in data protection in the context of Machine Learning and Computer Vision.
 
-  I am really excited in the developement of Artificial Intelligence (more broadly Artificial Life) and of its applications in the fields of every day's life. I am interested in many topics related to computer vision, computer graphics and machine learning, particularly:
-  - Fairness & privacy in computer vision applications
-  - Soft robotics and evolutionary robotics
+  Prior to my PhD, I studied at École polytechnique, majoring in computer science and mathematics for visual computing. I also hold a Master's degree from École des Ponts and from Paris-Saclay University.
 
-  At the moment, I work as an intern at Facebook AI Research center in Paris, under the supervision of Hervé Jégou and Matthijs Douze.
+  I am really excited in the developement of Artificial Intelligence (more broadly Artificial Life) and of its applications in the fields of every day's life. 
   </div>
   <div class="col-md-4 m-auto" style="text-align: center">
     <img class="img-responsive rounded-circle profile" src="assets/img/{{page.profile.image}}">

@@ -1,1 +1,1 @@
-Personal website, inspired from the al-folio theme.
+Personal website, some elements come from the al-folio theme (dark mode and bibliography element).

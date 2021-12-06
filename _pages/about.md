@@ -9,7 +9,7 @@ nav: true
 
 ## 👨🏼‍💻 Short Bio
 
-I am an AI Research PhD student at Facebook AI Research (FAIR) and INRIA Rennes, advised by [Matthijs Douze](https://scholar.google.fr/citations?user=0eFZtREAAAAJ&hl=fr), [Hervé Jégou](https://scholar.google.fr/citations?user=1lcY2z4AAAAJ&hl=fr) and [Teddy Furon](https://scholar.google.fr/citations?user=aLUbWzAAAAAJ&hl=fr).
+I am an incoming AI Research PhD student at Facebook AI Research (FAIR) and INRIA Rennes, advised by [Matthijs Douze](https://scholar.google.fr/citations?user=0eFZtREAAAAJ&hl=fr), [Hervé Jégou](https://scholar.google.fr/citations?user=1lcY2z4AAAAJ&hl=fr) and [Teddy Furon](https://scholar.google.fr/citations?user=aLUbWzAAAAAJ&hl=fr).
 
 I previously interned at Dassault-Systemes, on differentiable physics for generative design and shape/topology optimization, and at [Incepto Medical](https://incepto-medical.com/en), where I developed tools for data scientists and radiologists. I also spent 6 months in the French military as a section head.
 

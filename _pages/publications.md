@@ -7,15 +7,11 @@ nav: true
 ---
 
 <div class="publications">
-{% if site.publications %}
   <div class="table-responsive">
     <table class="table table-sm table-borderless">
     {% assign publications = site.publications | reverse %}
-    {% for publication in publications %}
+    {% for publi in publications %}
       {% include publication.html %}
     {% endfor %}
     </table>
   </div>
-{% else %}
-  <p>No news so far...</p>
-{% endif %}

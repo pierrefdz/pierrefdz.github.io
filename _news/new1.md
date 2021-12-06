@@ -1,5 +1,5 @@
 ---
-date: 2016-01-15
+date: 2020-10-07
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Received a "Research Internship Award" for my work at Dassault-Systèmes on 3D morphogenesis of soft robots :sparkles:.
