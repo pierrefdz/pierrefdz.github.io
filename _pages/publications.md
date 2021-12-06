@@ -11,7 +11,9 @@ nav: true
     <table class="table table-sm table-borderless">
     {% assign publications = site.publications | reverse %}
     {% for publi in publications %}
-      {% include publication.html %}
+      {% if publi.show %}
+        {% include publication.html %}
+      {% endif %}
     {% endfor %}
     </table>
   </div>

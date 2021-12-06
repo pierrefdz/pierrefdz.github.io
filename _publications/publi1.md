@@ -1,5 +1,6 @@
 ---
 layout: publication_page
+show: false
 noheader: true
 
 title: Watermarking Images in Self-Supervised Latent Spaces
