@@ -1,6 +1,6 @@
 <div class="row mx-0 my-4">
     <div class="col-sm-4">
-        Image placeholder
+        <img src="{{publi.img}}" class="img-fluid thumbnail">
     </div>
 
     <div id="{{publi.title}}" class="col-sm-8">
@@ -29,9 +29,9 @@
                 <a href="{{ publi.pdf}}" class="btn">PDF</a>
             {% endif %}
             {% if publi.publisher %}
-                <a href="{{ publi.publisher}}" class="btn">PDF</a>
+                <a href="{{ publi.publisher}}" class="btn">Publisher</a>
             {% endif %}
-            {% if publi.arXiv %}
+            {% if publi.arxiv %}
                 <a href="{{ publi.arxiv}}" class="btn">arXiv</a>
             {% endif %}
             {% if publi.bib %}

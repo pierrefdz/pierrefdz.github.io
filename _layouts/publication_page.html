@@ -10,12 +10,22 @@ layout: default
   </header>
 
   <article>
+      {% for author in page.authors %}
+      {% if forloop.last %}
+      <a href="{{ author.url }}" title="{{author.affiliations | join: ', '}}">{{ author.name}}. </a>
+      {% else %}
+      <a href="{{ author.url }}" title="{{author.affiliations | join: ', '}}">{{ author.name}}, </a>
+      {% endif %}
+      {% endfor %}
+      <span style="font-style: italic;">{{page.title}}</span>.
+      {{page.journal}}.
+      {{page.date | date: "%b, %Y" }}.
+    <img src="{{page.img}}" class="img-fluid thumbnail mt-2">
+
     <h2> Abstract </h2>
+    {{page.abstract}}
     
     {{ content }}
-
-    <h2> Downloads </h2>
-    <h2> Reference </h2>
   
   </article>
 

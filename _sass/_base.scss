@@ -153,6 +153,11 @@ a, table.table a{ // need to override the default link color of table.table
   font-weight: bolder;
 }
 
+.thumbnail {
+  text-align: center;
+  border-radius: 0.5em;
+  // box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
 
 // Social (bottom)
 
