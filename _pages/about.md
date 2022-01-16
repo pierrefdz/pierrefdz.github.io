@@ -19,8 +19,8 @@ Prior to my PhD I studied at [École polytechnique](https://www.polytechnique.ed
 
 ### Paris-Saclay University
 *2020 - 2021.* \\
-World best university in Mathematics according to Shangai's ranking - Masters of Science in Mathematics, Vision and Learning.\\ 
-[Courses syllabus of MVA](https://www.master-mva.com/)). [Homeworks and projects](https://gitfront.io/r/pierrefdz/c3dad52f5fc405e4e2e1327bb71c085bd24f6121/MVA-2021/).
+World best university in Mathematics according to Shangai's ranking - Masters of Science in Mathematics, Vision and Learning.\\
+[Courses syllabus of MVA](https://www.master-mva.com/). [Homeworks and projects](https://gitfront.io/r/pierrefdz/c3dad52f5fc405e4e2e1327bb71c085bd24f6121/MVA-2021/).
 
 Relevant course work:
 - Convex optimization and applications in ML, Kernel methods for ML, Reinforcement learning, Sequential learning, Graphs in ML, Computational statistics
