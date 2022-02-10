@@ -54,4 +54,3 @@ _styles: >
 ## Downloads
 
 - [PDF]({{page.pdf}})
-- [Intership Report](/assets/pdf/wissls_internship.pdf)
