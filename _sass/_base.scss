@@ -8,6 +8,12 @@ p, h1, h2, h3, h4, h5, h6, em, div, span, strong {
   color: var(--global-text-color);
 }
 
+
+h4 {
+  margin-top: 1rem;
+}
+
+
 a, table.table a{ // need to override the default link color of table.table
   color: var(--global-text-color);
   &:hover {
@@ -17,6 +23,26 @@ a, table.table a{ // need to override the default link color of table.table
   &:hover:after {
     width: 100%;
   }
+}
+
+table{
+  margin-top: 1rem;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td, table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+// table tr:nth-child(even){background-color: var(--global-text-color);}
+table tr:hover {background-color: var(--global-code-bg-color);}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
 }
 
 
