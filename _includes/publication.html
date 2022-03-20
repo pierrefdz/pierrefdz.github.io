@@ -25,17 +25,20 @@
             {% else %}
                 <a href="{{ publi.url | relative_url }}" class="btn">HTML</a>
             {% endif %}
-            {% if publi.pdf %}
-                <a href="{{ publi.pdf}}" class="btn">PDF</a>
-            {% endif %}
             {% if publi.publisher %}
                 <a href="{{ publi.publisher}}" class="btn">Publisher</a>
             {% endif %}
             {% if publi.arxiv %}
                 <a href="{{ publi.arxiv}}" class="btn">arXiv</a>
             {% endif %}
+            {% if publi.code %}
+            <a href="{{ publi.code}}" class="btn">Code</a>
+            {% endif %}
+            {% if publi.pdf %}
+            <a href="{{ publi.pdf}}" class="btn">PDF</a>
+            {% endif %}
             {% if publi.bib %}
-                <a href="{{ publi.bib }}" class="btn">Bib</a>
+            <a href="{{ publi.bib }}" class="btn">Bib</a>
             {% endif %}
         </div>
 

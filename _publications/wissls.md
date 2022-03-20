@@ -27,30 +27,27 @@ authors:
 
 journal: ArXiv
 bib: /assets/bibliography/wissls.txt
-abstract: We revisit watermarking techniques based on pre-trained deep networks, in the light of self-supervised approaches. We present a way to embed both marks and binary messages into their latent spaces, leveraging data augmentation at marking time. Our method can operate at any resolution and creates watermarks robust to a broad range of transformations (rotations, crops, JPEG, contrast, etc). It significantly outperforms the previous zero-bit methods, and its performance on multi-bit watermarking is on par with state-of-the-art encoder-decoder architectures trained end-to-end for watermarking. Our implementation and models will be made publicly available.
 pdf: /assets/pdf/wissls.pdf 
 arxiv: https://arxiv.org/abs/2112.09581
 img: /assets/img/wissls/splash.png
+code: https://github.com/facebookresearch/ssl_watermarking
 
-# Below is an example of injecting additional page-specific styles.
-# If you use this page as a template, delete this _styles block.
-_styles: >
-  # .fake-img {
-  #   background: #bbb;
-  #   border: 1px solid rgba(0, 0, 0, 0.1);
-  #   box-shadow: 0 0px 4px rgba(0, 0, 0, 0.1);
-  #   margin-bottom: 12px;
-  # }
-  # .fake-img p {
-  #   font-family: monospace;
-  #   color: white;
-  #   text-align: left;
-  #   margin: 12px 0;
-  #   text-align: center;
-  #   font-size: 16px;
-  # }
 ---
 
-## Downloads
+## Method overview
 
-- [PDF]({{page.pdf}})
+## Backbone and feature normalization
+
+## Embedding process
+
+## Qualitative results
+
+## Quantitative results
+
+## Links
+
+- [`Code`](https://github.com/facebookresearch/ssl_watermarking)
+- [`PDF`]({{page.pdf}})
+- [`arXiv`]({{page.arxiv}})
+- [`Hugging Face Spaces`](https://huggingface.co/spaces/pierrefdz/ssl_watermarking)
+- [`Google Colab`](https://colab.research.google.com/github/facebookresearch/ssl_watermarking/blob/master/notebooks/ssl_watermarking.ipynb)
