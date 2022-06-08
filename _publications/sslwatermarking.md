@@ -29,6 +29,7 @@ journal: ArXiv
 bib: /assets/bibliography/sslwatermarking.txt
 pdf: /assets/publis/sslwatermarking/paper.pdf 
 arxiv: https://arxiv.org/abs/2112.09581
+publisher: https://ieeexplore.ieee.org/document/9746058
 img: /assets/publis/sslwatermarking/splash.png
 code: https://github.com/facebookresearch/ssl_watermarking
 
@@ -62,7 +63,7 @@ Summary of our contributions:
 
 ## Video
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zgu0I8SQMdI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="img-fluid thumbnail mt-2" width="560" height="315" src="https://www.youtube.com/embed/zgu0I8SQMdI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Backbone and feature normalization
 
@@ -179,7 +180,7 @@ Bellow is the Bit Error Rate (BER) on 1k COCO images resized to 128x128, at PSNR
 ## Links
 
 - [`Code`](https://github.com/facebookresearch/ssl_watermarking)
-- [`Publisher`]({{https://ieeexplore.ieee.org/document/9746058}})
+- [`Publisher`]({{page.publisher}})
 - [`arXiv`]({{page.arxiv}})
 - [`PDF`]({{page.pdf}})
 - [`Hugging Face Spaces`](https://huggingface.co/spaces/pierrefdz/ssl_watermarking)
