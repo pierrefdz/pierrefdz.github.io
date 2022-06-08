@@ -6,7 +6,7 @@ noheader: true
 title: Watermarking Images in Self-Supervised Latent Spaces
 description: 
 
-date: 2021-12-27
+date: 2022-05-22
 
 authors:
   - name: Pierre Fernandez
@@ -25,7 +25,7 @@ authors:
     url: "https://scholar.google.com/citations?user=0eFZtREAAAAJ&hl=en"
     affiliations: [Facebook AI Research]
 
-journal: ArXiv
+journal: International Conference on Acoustics, Speech and Signal Processing (ICASSP) 
 bib: /assets/bibliography/sslwatermarking.txt
 pdf: /assets/publis/sslwatermarking/paper.pdf 
 arxiv: https://arxiv.org/abs/2112.09581
