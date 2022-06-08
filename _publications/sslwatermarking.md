@@ -63,7 +63,7 @@ Summary of our contributions:
 
 ## Video
 
-<iframe class="img-fluid thumbnail mt-2" width="560" height="315" src="https://www.youtube.com/embed/zgu0I8SQMdI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/zgu0I8SQMdI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 ## Backbone and feature normalization
 
