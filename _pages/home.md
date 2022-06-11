@@ -2,7 +2,7 @@
 layout: page
 permalink: /
 title: Home
-description: Incoming PhD student at Inria and FAIR. Studied at École polytechnique and Paris-Saclay University.
+description: PhD student at Inria and FAIR. Studied at École polytechnique and Paris-Saclay University.
 
 profile:
   image: avatar.jpg
