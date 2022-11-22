@@ -6,7 +6,7 @@ noheader: true
 title: Active Image Indexing
 description: 
 
-date: 2022-10
+date: 2022-10-15
 
 authors:
   - name: Pierre Fernandez
@@ -43,11 +43,8 @@ Summary of our contributions:
 
 ## Poster
 
-<img src="/assets/publis/activeindexing/poster.png" class="img-fluid thumbnail mt-2">
-
 
 ## Links
 
-- [`Publisher`]({{page.publisher}})
 - [`arXiv`]({{page.arxiv}})
 - [`PDF`]({{page.pdf}})
