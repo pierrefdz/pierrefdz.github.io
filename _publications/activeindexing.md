@@ -23,7 +23,7 @@ authors:
     affiliations: [INRIA]
 
 journal: Arxiv
-img: /assets/publis/sslwatermarking/splash.png
+img: /assets/publis/activeindexing/splash.png
 bib: /assets/bibliography/activeindexing.txt
 arxiv: https://arxiv.org/abs/2210.10620
 
