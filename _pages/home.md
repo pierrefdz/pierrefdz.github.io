@@ -22,7 +22,7 @@ news: true  # includes a list of news items
 
   Prior to my PhD, I studied at École polytechnique, majoring in computer science and mathematics for visual computing. I also hold a Master's degree from École des Ponts and from Paris-Saclay University.
 
-  I am really excited in the developement of Artificial Intelligence (more broadly Artificial Life) and of its applications in the fields of every day's life. 
+  I am really excited in the developement of Artificial Intelligence and of its applications in the fields of every day's life. 
   </div>
   <div class="col-md-4 m-auto" style="text-align: center">
     <img class="img-responsive rounded-circle profile" src="assets/img/{{page.profile.image}}">
