@@ -6,7 +6,7 @@ noheader: true
 title: Active Image Indexing
 description: 
 
-date: 2023-05-01
+date: 2023-01-01
 
 authors:
   - name: Pierre Fernandez
@@ -52,11 +52,9 @@ header-includes:
 
 <img src="/assets/publis/activeindexing/poster.png" class="img-fluid thumbnail mt-2">
 
-<!-- 
 ## Video
 
 <p align="center"><iframe width="560" height="315" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
- -->
  
 ## Links
 
