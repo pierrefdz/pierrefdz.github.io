@@ -22,12 +22,12 @@ authors:
     url: "https://scholar.google.com/citations?hl=en&user=aLUbWzAAAAAJ"
     affiliations: [INRIA]
 
-bib: /assets/bibliography/sslwatermarking.txt
-pdf: /assets/publis/sslwatermarking/paper.pdf 
+bib: /assets/bibliography/activeindexing.txt
+pdf: /assets/publis/activeindexing/paper.pdf 
 arxiv: https://arxiv.org/abs/2210.10620
-publisher: https://openreview.net/forum?id=K9RHxPpjn2&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2023%2FConference%2FAuthors%23your-submissions)
-img: /assets/publis/sslwatermarking/splash.png
-code: https://github.com/facebookresearch/ssl_watermarking
+publisher: https://openreview.net/forum?id=K9RHxPpjn2
+img: /assets/publis/activeindexing/splash.png
+code: https://github.com/facebookresearch/active_indexing
 
 header-includes:
   - \usepackage[ruled,vlined,linesnumbered]{algorithm2e}
@@ -55,5 +55,5 @@ Compared to watermarking, the method leverage the access to the original images,
 ## Links
 
 - [`arXiv`]({{page.arxiv}})
-- [`OpenReview`]({{
+- [`OpenReview`]({{page.publisher}})
 - [`PDF`]({{page.pdf}})
