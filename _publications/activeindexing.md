@@ -22,7 +22,7 @@ authors:
     url: "https://scholar.google.com/citations?hl=en&user=aLUbWzAAAAAJ"
     affiliations: [INRIA]
 
-journal: International Conference on Learning Representations
+journal: International Conference on Learning Representations (ICLR)
 bib: /assets/bibliography/activeindexing.txt
 pdf: /assets/publis/activeindexing/paper.pdf 
 arxiv: https://arxiv.org/abs/2210.10620
