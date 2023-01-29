@@ -6,7 +6,7 @@ noheader: true
 title: Active Image Indexing
 description: 
 
-date: 2022-10-15
+date: 2023-05-01
 
 authors:
   - name: Pierre Fernandez
