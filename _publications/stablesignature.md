@@ -28,10 +28,7 @@ authors:
 journal: preprint (under review)
 bib: /assets/bibliography/stablesignature.txt
 pdf: /assets/publis/stablesignature/paper.pdf 
-arxiv: ''
-publisher: ''
 img: /assets/publis/stablesignature/splash.png
-code: ''
 
 header-includes:
   - \usepackage[ruled,vlined,linesnumbered]{algorithm2e}
