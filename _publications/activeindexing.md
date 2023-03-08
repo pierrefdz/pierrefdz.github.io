@@ -11,16 +11,16 @@ date: 2023-01-01
 authors:
   - name: Pierre Fernandez
     url: "https://pierrefdz.github.io/"
-    affiliations: [Facebook AI Research, INRIA]
+    affiliations: [Meta AI, Inria]
   - name: Matthijs Douze
     url: "https://scholar.google.com/citations?user=0eFZtREAAAAJ&hl=en"
-    affiliations: [Facebook AI Research]
+    affiliations: [Meta AI]
   - name: Hervé Jégou
     url: "https://scholar.google.com/citations?user=1lcY2z4AAAAJ&hl=en"
-    affiliations: [Facebook AI Research]
+    affiliations: [Meta AI]
   - name: Teddy Furon
     url: "https://scholar.google.com/citations?hl=en&user=aLUbWzAAAAAJ"
-    affiliations: [INRIA]
+    affiliations: [Inria]
 
 journal: International Conference on Learning Representations (ICLR)
 bib: /assets/bibliography/activeindexing.txt
