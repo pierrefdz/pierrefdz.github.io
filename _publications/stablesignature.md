@@ -6,7 +6,7 @@ noheader: true
 title: 'The Stable Signature: Rooting Watermarks in Latent Diffusion Models'
 description: 
 
-date: 2022-05-22
+date: 2023-08-30
 
 authors:
   - name: Pierre Fernandez
