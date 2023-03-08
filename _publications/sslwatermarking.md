@@ -11,19 +11,19 @@ date: 2022-05-22
 authors:
   - name: Pierre Fernandez
     url: "https://pierrefdz.github.io/"
-    affiliations: [Facebook AI Research, INRIA]
+    affiliations: [Meta AI, Inria]
   - name: Alexandre Sablayrolles
     url: "https://alexandresablayrolles.github.io/"
-    affiliations: [Facebook AI Research]
+    affiliations: [Meta AI]
   - name: Teddy Furon
     url: "https://scholar.google.com/citations?hl=en&user=aLUbWzAAAAAJ"
-    affiliations: [INRIA]
+    affiliations: [Inria]
   - name: Hervé Jégou
     url: "https://scholar.google.com/citations?user=1lcY2z4AAAAJ&hl=en"
-    affiliations: [Facebook AI Research]
+    affiliations: [Meta AI]
   - name: Matthijs Douze
     url: "https://scholar.google.com/citations?user=0eFZtREAAAAJ&hl=en"
-    affiliations: [Facebook AI Research]
+    affiliations: [Meta AI]
 
 journal: International Conference on Acoustics, Speech and Signal Processing (ICASSP) 
 bib: /assets/bibliography/sslwatermarking.txt
@@ -142,10 +142,10 @@ One image (800x600) watermarked at PSNR=40dB and FPR=1e-6, and some detected alt
 #### Multi-bit watermarking
 We use a 5-bits character encoding to encode and decode one message per image, and show the decoded messages for each image (green means that the character is rightfully decoded). The higher the PSNR, the higher the decoding errors, and the less robust the decoding is to transformations.
 
-One image (1024x768) from the INRIA Holidays dataset watermarked at PSNR=40dB and a payload of 30 bits, and decoded messages:
+One image (1024x768) from the Inria Holidays dataset watermarked at PSNR=40dB and a payload of 30 bits, and decoded messages:
 <img src="/assets/publis/sslwatermarking/qual_multibit.png" class="img-fluid thumbnail mt-2">
 
-Watermarked images from the INRIA Holidays dataset resized to 128x128. The watermark is added with our multi-bit watermarking method with a payload of 30 bits and with different values for the target PSNR: 52dB (top row), 40dB (middle row), 32dB (bottom row). 
+Watermarked images from the Inria Holidays dataset resized to 128x128. The watermark is added with our multi-bit watermarking method with a payload of 30 bits and with different values for the target PSNR: 52dB (top row), 40dB (middle row), 32dB (bottom row). 
 <img src="/assets/publis/sslwatermarking/holidays_multibit.png" class="img-fluid thumbnail mt-2">
 
 ## Quantitative results: Our approach VS state of the art

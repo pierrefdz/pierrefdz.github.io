@@ -1,6 +1,6 @@
-@article{fernandez2022active,
+@inproceedings{fernandez2022active,
   title={Active Image Indexing},
-  author={Fernandez, Pierre and Douze, Matthijs and J{\'e}gou, Herv{\'e} and Furon, Teddy },
-  journal={arXiv preprint arXiv:2210.10620},
-  year={2022}
+  author={Fernandez, Pierre and Douze, Matthijs and Jégou, Hervé and Furon, Teddy},
+  booktitle={International Conference on Learning Representations (ICLR)},
+  year={2023}
 }
