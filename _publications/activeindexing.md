@@ -53,24 +53,20 @@ First, a neural network maps an image to a vector representation, that is relati
 They would just distribute images activated for the index and feature extractor they use for indexing.
 - Compared to watermarking, the method leverages the access to the original images, which makes it better than blind watermarking for the task of copy detection.
 
+## Poster
+
+<img src="/assets/publis/activeindexing/poster.png" class="img-fluid thumbnail mt-2"> 
+
 ## Slides
 
 <p align="center">
-  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTJk9dylhB4Pmwbt-lYPH3YWHsEfW3VMMGdW7bKwr55ukdb-IiXsQRkjAlRQX1CCXnVJwqIIP1l562x/embed?start=false&loop=false&delayms=1000" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" class="img-fluid thumbnail mt-2"></iframe>
+  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTJk9dylhB4Pmwbt-lYPH3YWHsEfW3VMMGdW7bKwr55ukdb-IiXsQRkjAlRQX1CCXnVJwqIIP1l562x/embed?start=false&loop=false&delayms=1000" width="560" height="315" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" class="img-fluid thumbnail mt-2"></iframe>
 </p>
-
-<!-- <p align="center">
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS-cpERSxlGtNSvjIdq8CN-Q8PRjteT9LdrNAT39PxrWo_vrh5tLKnXQwbnJ78SALPz9dcMCN_X66xz/embed?start=true&loop=true&delayms=1000" frameborder="0" width="560" height="315" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-</p> -->
-
-## Poster
-
-<img src="/assets/publis/activeindexing/poster.png" class="img-fluid thumbnail mt-2">
 
 <!-- ## Video
 
 <p align="center"><iframe width="560" height="315" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p> -->
- 
+
 ## Links
 
 - [`arXiv`]({{page.arxiv}})
