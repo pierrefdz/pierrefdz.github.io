@@ -59,8 +59,8 @@ They would just distribute images activated for the index and feature extractor 
 
 ## Slides
 
-<p align="center">
-  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTJk9dylhB4Pmwbt-lYPH3YWHsEfW3VMMGdW7bKwr55ukdb-IiXsQRkjAlRQX1CCXnVJwqIIP1l562x/embed?start=false&loop=false&delayms=1000" width="560" height="315" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" class="img-fluid thumbnail mt-2"></iframe>
+<p align="center" class="img-fluid thumbnail mt-2">
+  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTJk9dylhB4Pmwbt-lYPH3YWHsEfW3VMMGdW7bKwr55ukdb-IiXsQRkjAlRQX1CCXnVJwqIIP1l562x/embed?start=false&loop=false&delayms=1000" frameborder="0" width="560" height="315" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 </p>
 
 <!-- ## Video
