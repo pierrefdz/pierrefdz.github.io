@@ -185,3 +185,4 @@ Bellow is the Bit Error Rate (BER) on 1k COCO images resized to 128x128, at PSNR
 - [`PDF`]({{page.pdf}})
 - [`Hugging Face Spaces`](https://huggingface.co/spaces/pierrefdz/ssl_watermarking)
 - [`Google Colab`](https://colab.research.google.com/github/facebookresearch/ssl_watermarking/blob/master/notebooks/ssl_watermarking.ipynb)
+- [`BibTeX`]({{page.bib}})

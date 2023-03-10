@@ -45,3 +45,4 @@ These signatures can be used to detect and track the origin of images generated 
 ## Links
 
 - [`PDF`]({{page.pdf}})
+- [`BibTeX`]({{page.bib}})

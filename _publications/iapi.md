@@ -21,7 +21,9 @@ header-includes:
   - \usepackage[ruled,vlined,linesnumbered]{algorithm2e}
 ---
 
-## TL;DR (Résumé - in french)
+<img src="{{page.img}}" class="img-fluid thumbnail mt-2" style="max-width: 75%;">
+
+## Résumé - in french
 
 Rapport de droit sur les liens entre Intelligence Artificielle (IA) et Propriété Intellectuelle (PI) à travers deux aspects. 
 - Le premier traite des données et des algorithmes entraînés avec ces données : quelles sont les droits existants, sont-ils suffisants ? 
@@ -33,3 +35,4 @@ Ces deux aspects étant relativement distincts, il est possible de lire chaque p
 ## Links
 
 - [`PDF`]({{page.pdf}})
+- [`BibTeX`]({{page.bib}})
