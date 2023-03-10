@@ -41,6 +41,9 @@ header-includes:
 First, a neural network maps an image to a vector representation, that is relatively robust to various transformations of the image. Second, an efficient but approximate similarity search algorithm trades scalability (size and speed) against quality of the search, thereby introducing a source of error. 
 - We improve the robustness of copy detection on an image by modifying it in an imperceptible manner before its release (like in watermarking). The goal is to push the image's representation deep into its indexing partition.
 
+  <img src="/assets/publis/activeindexing/animated.gif" width="70%">
+  <!-- ![Active Indexing - animated gif](/assets/publis/activeindexing/animated.gif) -->
+
 *How?*
 - We back-propagate a loss from the deep neural network back to the image, under perceptual constraints. 
 - Our experiments show that the retrieval and copy detection of activated images is significantly improved. For instance, activation improves by +40% the Recall1@1 on various image transformations, and for several popular indexing structures based on product quantization or locality sensitivity hashing.
@@ -52,7 +55,7 @@ They would just distribute images activated for the index and feature extractor 
 
 ## Slides
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS-cpERSxlGtNSvjIdq8CN-Q8PRjteT9LdrNAT39PxrWo_vrh5tLKnXQwbnJ78SALPz9dcMCN_X66xz/embed?start=true&loop=true&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS-cpERSxlGtNSvjIdq8CN-Q8PRjteT9LdrNAT39PxrWo_vrh5tLKnXQwbnJ78SALPz9dcMCN_X66xz/embed?start=true&loop=true&delayms=1000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ## Poster
 
