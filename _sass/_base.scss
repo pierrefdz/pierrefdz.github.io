@@ -162,7 +162,6 @@ table th {
   }
 }
 
-
 // News
 
 .news *{
@@ -184,6 +183,11 @@ table th {
   border-radius: 0.5em;
   margin-bottom: 1em;
   // box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.video {
+  width: 90%;
+  aspect-ratio: 2/1;
 }
 
 // Social (bottom)
