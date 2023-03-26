@@ -16,7 +16,7 @@ news: true  # includes a list of news items
 
 <div class="row">
   <div class="col-md-8" markdown="1">
-  Hi 🙋🏼‍♂️! 
+  Hi! 
 
   I am an AI Research PhD student at Meta AI & Inria Rennes, advised by [Matthijs Douze](https://scholar.google.fr/citations?user=0eFZtREAAAAJ&hl=fr), [Hervé Jégou](https://scholar.google.fr/citations?user=1lcY2z4AAAAJ&hl=fr) and [Teddy Furon](https://scholar.google.fr/citations?user=aLUbWzAAAAAJ&hl=fr). I am interested in data protection in the context of Machine Learning and Computer Vision.
 
