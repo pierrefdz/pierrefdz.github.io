@@ -107,7 +107,7 @@ github: [metadata]
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics:    false  # enables google analytics
+enable_google_analytics:    true  # enables google analytics
 enable_math:                true   # enables math typesetting (uses MathJax)=
 enable_darkmode:            true   # enables switching between light/dark modes
 
