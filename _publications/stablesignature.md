@@ -144,6 +144,7 @@ This is inspired by the training procedure of [LDM](https://arxiv.org/abs/2112.1
 During a loop of the fine-tuning, a batch $$x$$ of training images is encoded, then decoded by $$D$$, resulting in images $$x'$$.
 The loss to be minimized is then computed as a weighted sum of the message loss $$L_{m}$$, which aims at minimizing the distance between the extracted message $$m'$$ and the target message $$m$$, and the perceptual image loss $$L_{i}$$, which aims at generating images close to the original ones.
 
+This optimization can be performed very quickly. In our experiments, we use batch size 4 and $$100$$ iterations are enough to reach a very high quality (around 1 minute).
 
 ### Statistical tests
 
