@@ -87,6 +87,8 @@ We imagine 2 scenarios where watermarks are used to detect or identify the model
 
 <img src="/assets/publis/stablesignature/results.png" class="img-fluid thumbnail mt-2" alt="Results on detection and dentification">
 
+*None, Crop, Brightness, Combined refers to the type of transformation applied to the image before detection. (Combined = Crop(0.5) + Brightness(2.0) + JPEG(80))*
+
 **Detection**
 
 In this first scenario, Alice watermarks the decoder with a single signature $$m$$, such that all generated images contain this signature.
@@ -105,10 +107,10 @@ Results of state-of-the-art [passive methods](https://arxiv.org/pdf/2211.00680.p
 
 In this second scenario, Alice watermarks the decoder with a different signature $$m$$ for each model she gives to Bobs.
 Given an image, the goal is to find if any of the $$N$$ Bobs created it (detection) and if so, which one (identification).
-There are $3$ types of error: 
-\emph{false positive}: flag a vanilla image; 
-\emph{false negative}: miss a generated image; 
-\emph{false accusation}: flag a generated image but identify the wrong user.
+There are 3 types of error: 
+false positive: flag a vanilla image; 
+false negative: miss a generated image; 
+false accusation: flag a generated image but identify the wrong user.
 
 Our experiments show that:
 - Stable Signature correctly identifies the user among $$10^5$$ in $$98\%$$ of generated images when they are not modified;
