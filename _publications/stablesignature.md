@@ -132,7 +132,7 @@ In a nutshell, by distributing more models, Alice trades some accuracy of detect
 We jointly train 2 simple convolutional neural networks, in the same way as [HiDDeN](https://arxiv.org/abs/1807.09937). 
 The first one (the watermark encoder $$W_E$$) takes as input an image $$x$$ and a random $$m$$ which is a $$k$$-bit binary message ($$k=48$$ in our case). It outputs a new watermark image $$x'$$.
 $$x'$$ is then subject to image augmentations such as crops, flips, or JPEG compression.
-The second one, i.e. the watermark extractor $$W$$, takes as input $$x'$$ and outputs the message $$m'$$.
+The second one, i.e. the watermark extractor $$W$$, takes as input the augmented $$x'$$ and outputs the message $$m'$$.
 The goal is to train $$E, W$$ such that $$m' = m$$.
 
 At the end of this training we discard $$W_E$$ that does not serve our purpose and only keep $$W$$.
