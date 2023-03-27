@@ -65,8 +65,13 @@ As an example use-case, she can later give her signature to content sharing plat
 
 ### Method
 
-- First, we train the watermark extractor $W$.
 
+#### Watermark pre-training
+First, we train the watermark extractor $$W$$.
+
+
+#### Fine-tuning the decoder
+Then, we fine-tune the decoder $$D$$ of the VAE to produce images that hide the signature $$b$$.
 
 
 ## Results
