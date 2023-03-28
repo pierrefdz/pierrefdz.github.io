@@ -26,6 +26,7 @@ authors:
     affiliations: [Inria]
 
 journal: preprint (under review)
+arxiv: https://arxiv.org/abs/2303.15435
 bib: /assets/bibliography/stablesignature.txt
 pdf: /assets/publis/stablesignature/paper.pdf 
 img: /assets/publis/stablesignature/splash.png
@@ -187,4 +188,5 @@ $$
 ## Links
 
 - [`PDF`]({{page.pdf}})
+- [`arXiv`]({{page.arxiv}})
 - [`BibTeX`]({{page.bib}})
