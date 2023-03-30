@@ -75,4 +75,5 @@ They would just distribute images activated for the index and feature extractor 
 - [`PDF`]({{page.pdf}})
 - [`BibTeX`]({{page.bib}})
 - [`Slides`](https://docs.google.com/presentation/d/122l94QY3Vj6UF8hKm83jBUU2aIk82Dh9AyAHqIZrRpY/)
+- [`Video`](https://recorder-v3.slideslive.com/?share=79208&s=1dcd4f29-eb77-4fb7-85ec-843dab4215b6)
 
