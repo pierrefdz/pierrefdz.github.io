@@ -16,6 +16,7 @@ authors:
   - name: Daniel Haziza, Francisco Massa, Alaaeldin El-Nouby, Mahmoud Assran, Nicolas Ballas, Wojciech Galuba, Russell Howes, Po-Yao Huang, Shang-Wen Li, Ishan Misra, Michael Rabbat, Vasu Sharma, Gabriel Synnaeve, Hu Xu, Hervé Jegou, Julien Mairal, Patrick Labatut, Armand Joulin, Piotr Bojanowski
 
 journal: arXiv
+html: https://ai.facebook.com/blog/dino-v2-computer-vision-self-supervised-learning/
 bib: /assets/bibliography/dinov2.txt
 pdf: /assets/publis/dinov2/paper.pdf 
 arxiv: https://arxiv.org/abs/2304.07193
