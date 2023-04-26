@@ -8,12 +8,6 @@ description:
 
 date: 2023-04-25
  
-
-Amir Bar
-Hamed Pirsiavash
-Yann LeCun
-Micah Goldblum
-
 authors:
   - name: Randall Balestriero
     url: https://randallbalestriero.github.io/
