@@ -1,0 +1,6 @@
+@misc{balestriero2023cookbook,
+  title={A Cookbook of Self-Supervised Learning},
+  author={Randall Balestriero and Mark Ibrahim and Vlad Sobal and Ari S. Morcos and Shashank Shekhar and Tom Goldstein and Florian Bordes and Adrien Bardes and Gr{\'e}goire Mialon and Yuandong Tian and Avi Schwarzschild and Andrew Gordon Wilson and Jonas Geiping and Quentin Garrido and Pierre Fernandez and Amir Bar and Hamed Pirsiavash and Yann LeCun and Micah Goldblum},
+  journal={arXiv:2304.12210},
+  year={2023}
+}
