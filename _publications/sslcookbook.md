@@ -6,7 +6,7 @@ noheader: true
 title: 'A Cookbook of Self-Supervised Learning'
 description: 
 
-date: 2023-04-26
+date: 2023-04-25
  
 
 Amir Bar
