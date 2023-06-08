@@ -27,6 +27,7 @@ authors:
 
 journal: preprint (under review)
 arxiv: https://arxiv.org/abs/2303.15435
+code: https://github.com/pierrefdz/stable_signature
 bib: /assets/bibliography/stablesignature.txt
 pdf: /assets/publis/stablesignature/paper.pdf 
 img: /assets/publis/stablesignature/splash.png
@@ -190,3 +191,4 @@ $$
 - [`PDF`]({{page.pdf}})
 - [`arXiv`]({{page.arxiv}})
 - [`BibTeX`]({{page.bib}})
+- [`Code`]({{page.code}})
