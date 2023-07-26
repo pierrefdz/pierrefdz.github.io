@@ -25,7 +25,7 @@ authors:
     url: "https://scholar.google.com/citations?hl=en&user=aLUbWzAAAAAJ"
     affiliations: [Inria]
 
-journal: preprint (under review)
+journal: ICCV 2023
 arxiv: https://arxiv.org/abs/2303.15435
 code: https://github.com/pierrefdz/stable_signature
 bib: /assets/bibliography/stablesignature.txt

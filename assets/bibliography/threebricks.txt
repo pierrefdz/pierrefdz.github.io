@@ -1,0 +1,6 @@
+@misc{fernandez2023three,
+  title={Three Bricks to Consolidate Watermarks for Large Language Models},
+  author={Fernandez, Pierre and Chaffin, Antoine and Tit, Karim and Chappelier, Vivien and Furon, Teddy}
+  booktitle={preprint (under review)},
+  year={2023}
+}
