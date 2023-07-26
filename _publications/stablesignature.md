@@ -27,7 +27,7 @@ authors:
 
 journal: ICCV 2023
 arxiv: https://arxiv.org/abs/2303.15435
-code: https://github.com/pierrefdz/stable_signature
+code: https://github.com/facebookresearch/stable_signature
 bib: /assets/bibliography/stablesignature.txt
 pdf: /assets/publis/stablesignature/paper.pdf 
 img: /assets/publis/stablesignature/splash.png
