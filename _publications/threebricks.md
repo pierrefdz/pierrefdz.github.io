@@ -1,6 +1,6 @@
 ---
 layout: publication_page
-show: true
+show: false
 noheader: true
 
 title: 'Three Bricks to Consolidate Watermarks for Large Language Models'
