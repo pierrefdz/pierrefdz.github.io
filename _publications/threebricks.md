@@ -74,7 +74,7 @@ If the token is in the greenlist, the score is 1, otherwise it is 0.
 
 ### $$Z$$-scores
 
-The detection tests the hypothesis $$\mathcal H_0$$: "the text is natural" (human written or written without watermark), against $$\mathcal H_1$$: ``the text has been generated with watermark''.
+The detection tests the hypothesis $$\mathcal H_0$$: "the text is natural" (human written or written without watermark), against $$\mathcal H_1$$: "the text has been generated with watermark".
 
 Current approaches [1,2] approximate the underlying distribution of the score $$S_T$$ by using a $$Z$$-test.
 This statistical hypothesis test determines whether a sample mean differs significantly from its expectation when the standard deviation is known.
