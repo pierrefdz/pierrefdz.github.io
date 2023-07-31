@@ -93,7 +93,7 @@ At detection time, we fix a false positive rate (FPR) and flag the text as water
 
 ## 🧱 What's wrong with $$Z$$-scores?
 
-The $$Z$$-test' approximate the underlying distribution of the scores. In practice, we observed that assumptions are not met in practice, and the resulting p-values are not reliable.
+The $$Z$$-test' approximate the underlying distribution of the scores. In practice, we observed that assumptions are not met, and the resulting p-values are not reliable.
 
 For instance, if we run detection on 100k natural text samples taken from wikipedia, with 10 different watermark keys (1M detection samples in total), we observe that the p-values are not uniformly distributed (as expected under the null hypothesis) and that we largely under-estimate the false positive rate (FPR).
 
