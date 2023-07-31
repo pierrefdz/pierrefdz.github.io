@@ -54,7 +54,7 @@ Three improvements to current watermarking methods for LLMs:
 
 *Generation*
 
-Most often, LLMs take as input the context and output a vector $l\in \mathbb R^{|\mathcal V|}$ of logits, tranformed into $p=\text{softmax}(l) \in [0,1]^{|\mathcal V|}$ representing the probability of each token in the vocabulary being the next.
+Most often, LLMs take as input the context and output a vector $$l\in \mathbb R^{|\mathcal V|}$$ of logits, tranformed into $$p=\text{softmax}(l) \in [0,1]^{|\mathcal V|}$$ representing the probability of each token in the vocabulary being the next.
 To generate a sequence from a context, we usually sample a token from distribution $\mathbb P \left( . \big| x^{(-N_p)},\dots, x^{(-1)} \right)$ with some variations (top-k sampling, nucleus-sampling, beam-search, etc.) then append it to the context and repeat the process.
 
 In the case of watermarked generation, the sampling is altered to embed the watermark.
