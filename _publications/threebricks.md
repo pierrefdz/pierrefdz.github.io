@@ -80,7 +80,7 @@ Current approaches [1,2] approximate the underlying distribution of the score $$
 This statistical hypothesis test determines whether a sample mean differs significantly from its expectation when the standard deviation is known.
 It computes the so-called $$Z$$ statistics:
 
-$$ Z = \frac{{S_T/T - \mu_0}}{{\sigma_0 / \sqrt{T}}},$$
+$$ Z = \frac{S_T/T - \mu_0}{\sigma_0 / \sqrt{T}},$$
 
 where $$\mu_0$$ and $$\sigma_0$$ are the expectation and standard deviation per token under the null hypothesis $$\mathcal H_0$$, i.e. when the analyzed text is not watermarked.
 The $$Z$$-test is typically used for large sample sizes assuming a normal distribution under the null hypothesis thanks to the central limit theorem. This assumption is key for computing the p-value: the probability of observing a value of $$Z$$ at least as extreme as the one observed $$z$$, under the null hypothesis:
