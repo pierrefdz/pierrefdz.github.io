@@ -54,8 +54,8 @@ Three improvements to current watermarking methods for LLMs:
 
 *Generation*
 
-Most often, LLMs take as input the context and output a vector $$l\in \mathbb R^{|\mathcal V|}$$ of logits, tranformed into $$p=\text{softmax}(l) \in [0,1]^{|\mathcal V|}$$ representing the probability of each token in the vocabulary being the next.
-To generate a sequence from a context, we usually sample a token from distribution $$\mathbb P \left( . \big| x^{(-N_p)},\dots, x^{(-1)} \right)$$ with some variations (top-k sampling, nucleus-sampling, beam-search, etc.) then append it to the context and repeat the process.
+Most often, LLMs take as input the context and output a vector $$l\in \mathbb{R}^{V}$$ of logits, tranformed into $$p=\text{softmax}(l) \in [0,1]^{V}$$ representing the probability of each token in the vocabulary being the next.
+To generate a sequence from a context, we usually sample a token from distribution $$\mathbb{P} \left( . \big| x^{(-N_p)},\dots, x^{(-1)} \right)$$ with some variations (top-k sampling, nucleus-sampling, beam-search, etc.) then append it to the context and repeat the process.
 
 In the case of watermarked generation, the sampling is altered to embed the watermark.
 In many cases (e.g. [1,2]), this is done by hashing $$h$$ tokens before the token to generate, using this to seed a random number generator (RNG), and modify the sampling using the RNG's output.
@@ -67,7 +67,7 @@ For instance, [1] uses the RNG to randomly generate a set of greenlist tokens, a
 
 At detection time, we do the same process again, ie hash $$h$$ tokens, use this to seed a RNG, then use the RNG's output to score the token that follows.
 To take the same example as above, [1] uses the RNG to re-generate a set of greenlist tokens, and scores the token that follows.
-If the token is in the greenlist, the score is $$1$$, otherwise it is $$0$$.
+If the token is in the greenlist, the score is 1, otherwise it is 0.
 
 <img src="/assets/publis/threebricks/score.png" class="img-fluid thumbnail mt-2" alt="Example of scoring">
 
