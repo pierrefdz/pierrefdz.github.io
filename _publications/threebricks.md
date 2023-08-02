@@ -23,7 +23,7 @@ authors:
     affiliations: [Inria]
 
 journal: preprint (under review)
-arxiv: https://arxiv.org/abs/TODO
+arxiv: https://arxiv.org/abs/2308.00113
 code: https://github.com/facebookresearch/three_bricks
 bib: /assets/bibliography/threebricks.txt
 pdf: /assets/publis/threebricks/paper.pdf 
@@ -43,7 +43,7 @@ Three improvements to current watermarking methods for LLMs:
 ## Links
 
 - [`Code`]({{page.code}})
-- [`HuggingFace Demo`](https://huggingface.co/spaces/NohTow/LLaMav2_watermarking)
+- [`HuggingFace Demo`](https://huggingface.co/spaces/NohTow/LLM_watermarking)
 - [`PDF`]({{page.pdf}})
 - [`arXiv`]({{page.arxiv}})
 - [`BibTeX`]({{page.bib}})
