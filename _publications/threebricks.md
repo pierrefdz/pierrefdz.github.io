@@ -93,7 +93,7 @@ At detection time, we fix a false positive rate (FPR) and flag the text as water
 
 ## 🧱 What's wrong with $$Z$$-scores?
 
-The $$Z$$-test' approximate the underlying distribution of the scores. In practice, we observed that assumptions are not met, and the resulting p-values are not reliable.
+The $$Z$$-tests approximate the underlying distribution of the scores. In practice, we observed that assumptions are not met, and the resulting p-values are not reliable.
 
 For instance, if we run detection on 100k natural text samples taken from wikipedia, with 10 different watermark keys (1M detection samples in total), we observe that the p-values are not uniformly distributed (as expected under the null hypothesis) and that we largely under-estimate the false positive rate (FPR).
 
@@ -119,7 +119,7 @@ In *zero-bit watermarking* we know the key used to generate the watermarked text
 In *multi-bit watermarking*, we try to decode a message from the text, without knowing the key used to generate it.
 
 It is rather easy to turn a zero-bit watermarking scheme into multi-bit watermarking, by associating a secret key per message. 
-However, on our case, this would require re-generating the secret vectors for each possible key, and score the text with each of them.
+However, in our case, this would require re-generating the secret vectors for each possible key, and score the text with each of them.
 
 We introduce in the paper a simple way to scale previous methods to multi-bit watermarks, based on the idea of using a single secret vector and shifted secret vectors for each message.
 
