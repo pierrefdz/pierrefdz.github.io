@@ -43,7 +43,7 @@ Three improvements to current watermarking methods for LLMs:
 ## Links
 
 - [`Code`]({{page.code}})
-- [`HuggingFace Demo`](https://huggingface.co/spaces/NohTow/LLM_watermarking)
+- [`HuggingFace Demo`](https://huggingface.co/spaces/NohTow/Llama2_watermarking)
 - [`PDF`]({{page.pdf}})
 - [`arXiv`]({{page.arxiv}})
 - [`BibTeX`]({{page.bib}})
