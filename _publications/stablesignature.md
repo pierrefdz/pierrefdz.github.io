@@ -185,6 +185,12 @@ $$
 \end{aligned}
 $$
 
+## Slides (FR)
+
+<p align="center" class="img-fluid mt-2">
+  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTdvBds1jpLgy6mpLM3ybZuRRPoEexcvYtBPI2N2JyPcXtQ0tDi1l0QYuNJnQfUqB2hnfEj6a0pYnBq/embed?start=false&loop=false&delayms=1000" frameborder="0" class="video" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</p>
+
 
 ## Links
 
