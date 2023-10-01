@@ -1,5 +1,5 @@
 ---
-date: 2023-07-26
+date: 2023-09-17
 ---
 
-New preprint on arXiv [*Three Bricks to Consolidate Watermarks for LLMs*](publications/threebricks/).
+Our work on text watermarking [*Three Bricks to Consolidate Watermarks for LLMs*](publications/threebricks/) is accepted at WIFS!

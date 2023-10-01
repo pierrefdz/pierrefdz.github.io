@@ -1,5 +1,5 @@
 ---
-date: 2023-04-14
+date: 2023-06-16
 ---
 
-Our team at Meta AI releases [DINOv2](publications/dinov2/), a family of foundation models producing high-performance visual features.
+I took part in the GenAI pitch as a juror, at VivaTech 2023. Replay is accessible [https://vimeo.com/837148896](here).

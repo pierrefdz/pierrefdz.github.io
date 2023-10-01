@@ -1,5 +1,5 @@
 ---
-date: 2023-03-22
+date: 2023-04-14
 ---
 
-New preprint on arXiv [*Stable Signature*](publications/stablesignature/).
+Our team at Meta AI releases [DINOv2](publications/dinov2/), a family of foundation models producing high-performance visual features.
