@@ -9,7 +9,7 @@ description:
 date: 2023-04-14
 
 authors:
-  - name: Maxime Oquab, Timothée Darcet, Théo Moutakanni,Huy Vo, Marc Szafraniec, Vasil Khalidov
+  - name: Maxime Oquab, Timothée Darcet, Théo Moutakanni, Huy Vo, Marc Szafraniec, Vasil Khalidov
   - name: Pierre Fernandez
     url: "https://pierrefdz.github.io/"
     affiliations: [Meta AI, Inria]
