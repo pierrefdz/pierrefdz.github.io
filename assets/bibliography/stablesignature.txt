@@ -1,6 +1,6 @@
 @misc{fernandez2023stable,
   title={The Stable Signature: Rooting Watermarks in Latent Diffusion Models},
   author={Fernandez, Pierre and Couairon, Guillaume and Jégou, Hervé and Douze, Matthijs and Furon, Teddy},
-  booktitle={preprint (under review)},
+  booktitle={Proceedings of the IEEE/CVF international conference on computer vision},
   year={2023}
 }
