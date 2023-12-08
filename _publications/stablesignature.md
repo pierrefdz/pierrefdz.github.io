@@ -198,3 +198,5 @@ $$
 - [`arXiv`]({{page.arxiv}})
 - [`BibTeX`]({{page.bib}})
 - [`Code`]({{page.code}})
+- [`Blog post`](https://ai.meta.com/blog/stable-signature-watermarking-generative-ai/)
+- [`Demo`](https://huggingface.co/spaces/imatag/stable-signature-bzh)
