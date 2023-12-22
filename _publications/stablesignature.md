@@ -25,7 +25,7 @@ authors:
     url: "https://scholar.google.com/citations?hl=en&user=aLUbWzAAAAAJ"
     affiliations: [Inria]
 
-journal: ICCV 2023
+journal: International Conference on Computer Vision (ICCV)
 arxiv: https://arxiv.org/abs/2303.15435
 code: https://github.com/facebookresearch/stable_signature
 bib: /assets/bibliography/stablesignature.txt

@@ -11,7 +11,7 @@ date: 2023-11-30
 authors:
   - name: Seamless Communication
 
-journal: arXiv
+journal: CoRR 2023
 bib: /assets/bibliography/seamless.txt
 pdf: /assets/publis/seamless/seamless.pdf 
 arxiv: https://arxiv.org/abs/todo

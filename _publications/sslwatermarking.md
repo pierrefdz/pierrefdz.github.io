@@ -25,7 +25,7 @@ authors:
     url: "https://scholar.google.com/citations?user=0eFZtREAAAAJ&hl=en"
     affiliations: [FAIR Meta]
 
-journal: International Conference on Acoustics, Speech and Signal Processing (ICASSP) 
+journal: International Conference on Acoustics, Speech, and Signal Processing (ICASSP)
 bib: /assets/bibliography/sslwatermarking.txt
 pdf: /assets/publis/sslwatermarking/paper.pdf 
 arxiv: https://arxiv.org/abs/2112.09581

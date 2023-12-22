@@ -22,7 +22,7 @@ authors:
     url: "https://scholar.google.com/citations?hl=en&user=aLUbWzAAAAAJ"
     affiliations: [Inria]
 
-journal: WIFS 2023
+journal: International Workshop on Information Forensics and Security
 arxiv: https://arxiv.org/abs/2308.00113
 code: https://github.com/facebookresearch/three_bricks
 bib: /assets/bibliography/threebricks.txt

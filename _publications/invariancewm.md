@@ -22,7 +22,7 @@ authors:
     url: "https://scholar.google.com/citations?user=0eFZtREAAAAJ&hl=en"
     affiliations: [FAIR Meta]
 
-journal: ICASSP 2024
+journal: International Conference on Acoustics, Speech, and Signal Processing (ICASSP)
 arxiv: https://arxiv.org/abs/2310.11446
 bib: /assets/bibliography/invariancewm.txt
 pdf: /assets/publis/invariancewm/paper.pdf 
