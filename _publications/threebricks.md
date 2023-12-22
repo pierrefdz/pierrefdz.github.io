@@ -11,7 +11,7 @@ date: 2023-07-27
 authors:
   - name: Pierre Fernandez
     url: "https://pierrefdz.github.io/"
-    affiliations: [Meta AI, Inria]
+    affiliations: [FAIR Meta, Inria]
   - name: Antoine Chaffin
     affiliations: [Imatag, Inria]
   - name: Karim Tit
@@ -22,7 +22,7 @@ authors:
     url: "https://scholar.google.com/citations?hl=en&user=aLUbWzAAAAAJ"
     affiliations: [Inria]
 
-journal: preprint (under review)
+journal: WIFS 2023
 arxiv: https://arxiv.org/abs/2308.00113
 code: https://github.com/facebookresearch/three_bricks
 bib: /assets/bibliography/threebricks.txt

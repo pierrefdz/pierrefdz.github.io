@@ -16,7 +16,7 @@ authors:
   - name: Vlad Sobal, Ari Morcos, Shashank Shekhar, Tom Goldstein, Florian Bordes, Adrien Bardes, Gregoire Mialon, Yuandong Tian, Avi Schwarzschild, Gordon Wilson, Jonas Geiping, Quentin Garrido
   - name: Pierre Fernandez
     url: "https://pierrefdz.github.io/"
-    affiliations: [Meta AI, Inria]
+    affiliations: [FAIR Meta, Inria]
   - name: Amir Bar, Hamed Pirsiavash, Yann LeCun, Micah Goldblum
 
 journal: arXiv

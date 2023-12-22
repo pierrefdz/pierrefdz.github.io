@@ -11,13 +11,13 @@ date: 2022-10-15
 authors:
   - name: Pierre Fernandez
     url: "https://pierrefdz.github.io/"
-    affiliations: [Meta AI, Inria]
+    affiliations: [FAIR Meta, Inria]
   - name: Matthijs Douze
     url: "https://scholar.google.com/citations?user=0eFZtREAAAAJ&hl=en"
-    affiliations: [Meta AI]
+    affiliations: [FAIR Meta]
   - name: Hervé Jégou
     url: "https://scholar.google.com/citations?user=1lcY2z4AAAAJ&hl=en"
-    affiliations: [Meta AI]
+    affiliations: [FAIR Meta]
   - name: Teddy Furon
     url: "https://scholar.google.com/citations?hl=en&user=aLUbWzAAAAAJ"
     affiliations: [Inria]
