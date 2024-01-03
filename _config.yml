@@ -5,7 +5,6 @@
 title: Pierre Fernandez # the website title (if blank, full name will be used instead)
 first_name: Pierre
 last_name: Fernandez
-email: pierre.fernandez@polytechnique.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Research Intern at FAIR, interested in Computer Vision and Graphics
 footer_text: >
