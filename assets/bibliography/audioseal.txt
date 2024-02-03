@@ -1,0 +1,6 @@
+@article{sanroman2024proactive,
+  title={Proactive Detection of Voice Cloning with Localized Watermarking},
+  author={San Roman, Robin and Fernandez, Pierre and Elsahar, Hady and D´efossez, Alexandre and Furon, Teddy and Tran, Tuan},
+  journal={arXiv preprint},
+  year={2024}
+}

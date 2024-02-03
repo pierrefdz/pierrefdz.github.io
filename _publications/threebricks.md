@@ -22,7 +22,7 @@ authors:
     url: "https://scholar.google.com/citations?hl=en&user=aLUbWzAAAAAJ"
     affiliations: [Inria]
 
-journal: International Workshop on Information Forensics and Security (WIFS)
+journal: International Workshop on Information Forensics and Security (WIFS) - Best Student Paper award
 arxiv: https://arxiv.org/abs/2308.00113
 code: https://github.com/facebookresearch/three_bricks
 bib: /assets/bibliography/threebricks.txt
