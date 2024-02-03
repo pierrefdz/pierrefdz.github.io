@@ -59,22 +59,39 @@ Previous iterations of AudioSeal were used to watermark generative models in pub
 AI at Meta, such as [Audiobox](https://audiobox.metademolab.com) and [Seamless](https://seamless.qa.metademolab.com/expressive), serving 100k users daily.
 
 
+
 ## How does it work?
 
+<img src="/assets/publis/audioseal/overview.png" class="img-fluid thumbnail mt-2" alt="Overview. AudioSeal consists of a generator and a detector.">
 
-## Compared to passive detection
+AudioSeal consists of two main components:
+- A generator, which generate an additive watermark waveform based on the input audio,
+- A detector, which predicts the presence of the watermark at each time step.
+
+The generator is trained to produce a watermark that is imperceptible to the human ear, and robust to common audio processing operations such as compression, re-encoding, and noise addition.
+The detector is trained to predict the presence of the watermark at each time step, and is designed to be fast and suitable for real-life applications where watermarked audio is embedded in a stream of (often non-watermarked) audio.
+
+### Model training
+
+
+### Model architectures
+
+### Detection, Localization and Attribution
 
 
 
-## Compared to the current SOTA watermarking method
+## Main results
 
+### Compared to passive detection
 
+### Compared to the current SOTA watermarking method
 
-## Watermark robustness to attacks
+### Watermark robustness to attacks
 
 
 ## Conclusion
 
+AudioSeal represents a significant advancement for audio content detection, offering a proactive solution to combat the proliferation of AI-generated content. As technology continues to evolve, innovative approaches like AudioSeal play a crucial role in safeguarding the integrity of audio content and upholding responsibility in the deployments of these generative models.
 
 ## Links
 
