@@ -71,22 +71,62 @@ AudioSeal consists of two main components:
 The generator is trained to produce a watermark that is imperceptible to the human ear, and robust to common audio processing operations such as compression, re-encoding, and noise addition.
 The detector is trained to predict the presence of the watermark at each time step, and is designed to be fast and suitable for real-life applications where watermarked audio is embedded in a stream of (often non-watermarked) audio.
 
+
 ### Model training
 
+<img src="/assets/publis/audioseal/training.png" class="img-fluid thumbnail mt-2" alt="">
+
+The training of AudioSeal involves a joint optimization of the generator and detector models. 
+
+- The generator takes an audio waveform as input and outputs a watermark waveform of the same dimensionality. This watermark is then added to the original audio to create the watermarked audio.
+
+- To ensure robustness against audio editing and precise localization of the watermark, we employ a collection of training time augmentations. These include random masking of the watermark with silences and other original audios, as well as a range of signal alterations such as bandpass filtering, audio boosting, adding echo, noise, etc.
+
+- The detector model processes the original and watermarked signals, outputting a soft decision at every time step. The detector is trained to maximize its accuracy while minimizing the perceptual difference between the original and watermarked audio.
+
+We also extend AudioSeal to support multi-bit watermarking, allowing an audio to be attributed to a specific model or version without affecting the detection signal.
 
 ### Model architectures
 
-### Detection, Localization and Attribution
+<img src="/assets/publis/audioseal/archs.png" class="img-fluid thumbnail mt-2" alt="">
 
+
+The architecture of the generator and detector models is based on the EnCodec design. The generator consists of an encoder and a decoder, both incorporating elements from EnCodec. The encoder applies a 1D convolution followed by four convolutional blocks, each including a residual unit and down-sampling layer. The decoder mirrors the encoder structure but uses transposed convolutions instead.
+
+The detector comprises an encoder, a transposed convolution, and a linear layer. The encoder shares the generator’s architecture but with different weights. The transposed convolution upsamples the activation map to the original audio resolution, and the linear layer reduces the dimensions to two, followed by a softmax function that gives sample-wise probability scores.
+
+### Detection, Localization, Attribution
+
+The detector is designed to predict the presence of the watermark and optional bits at each time step. 
+For instance, for an audio where the watermark is present between 5s and 7.5s, the detector probability output will look like:
+<img src="/assets/publis/audioseal/qual.png" class="img-fluid thumbnail mt-2" alt="">
+
+This allows for:
+- **Detection**: we use a threshold on the average detector's output to decide if the watermark is present or not.
+- **Localization**: we use a threshold on the detector's output to decide if the watermark is present at each time step.
+- **Attribution**: we use the optional bits to attribute the audio to a specific model or version.
 
 
 ## Main results
 
+### Examples
+
 ### Compared to passive detection
+
+AudioSeal significantly outperforms passive detection methods, achieving near-perfect detection rates over a wide range of audio edits. In contrast, passive detection methods, which do not alter the audio source, are prone to fail as generative models advance and the difference between synthesized and authentic content diminishes.
 
 ### Compared to the current SOTA watermarking method
 
+Compared to the current state-of-the-art watermarking method, WavMark, AudioSeal achieves better perceptual quality, higher robustness to various audio editing techniques, and significantly faster detection speed. This is particularly important for real-time and large-scale applications where most content is not watermarked.
+
 ### Watermark robustness to attacks
+
+We also evaluated the robustness of AudioSeal to various adversarial attacks:
+- white-box attacks against the detector, 
+- semi black-box by retraining other generators/detectors pairs, and attacking the new detector,
+- black-box attacks by training a classifier to distinguish watermarked from non-watermarked audio, and using it as proxy to attack the detector.
+
+Our findings suggest that as long as the detector’s weights are kept confidential, the effectiveness of these attacks is limited.
 
 
 ## Conclusion
