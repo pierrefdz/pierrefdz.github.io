@@ -31,6 +31,7 @@ code: https://github.com/facebookresearch/stable_signature
 bib: /assets/bibliography/stablesignature.txt
 pdf: /assets/publis/stablesignature/paper.pdf 
 img: /assets/publis/stablesignature/splash.png
+publisher: https://openaccess.thecvf.com/content/ICCV2023/html/Fernandez_The_Stable_Signature_Rooting_Watermarks_in_Latent_Diffusion_Models_ICCV_2023_paper.html
 
 header-includes:
   - \usepackage[ruled,vlined,linesnumbered]{algorithm2e}
