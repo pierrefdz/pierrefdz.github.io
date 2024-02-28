@@ -1,0 +1,6 @@
+@article{sander2024watermarking,
+  title={Watermarking Makes Language Models Radioactive},
+  author={Sander, Tom and Fernandez, Pierre and Durmus, Alain and Douze, Matthijs and Furon, Teddy},
+  journal={arXiv preprint arXiv:2402.14904},
+  year={2024}
+}
