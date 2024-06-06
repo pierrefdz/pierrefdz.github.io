@@ -251,7 +251,7 @@ The watermark is also detectable when music is added to the audio in the backgro
     </audio>
   </div>
   <div class="col-md-6">
-    <h6>Watermarked Audio + Music (detected)</h6>
+    <h6>Watermarked Speech + Music (detected)</h6>
     <audio controls>
       <source src="/assets/publis/audioseal/samples/9_wm.wav" type="audio/wav">
       Your browser does not support the audio element.
