@@ -225,20 +225,6 @@ and from an environmental sounds dataset:
     </audio>
   </div>
 </div>
-<div class="row mt-4">
-  <div class="col-md-6">
-    <audio controls>
-      <source src="/assets/publis/audioseal/samples/8_ori.wav" type="audio/wav">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-  <div class="col-md-6">
-    <audio controls>
-      <source src="/assets/publis/audioseal/samples/8_wm.wav" type="audio/wav">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-</div>
 
 The watermark is also detectable when music is added to the audio in the background of a watermarked speech:
 
@@ -277,6 +263,14 @@ This is particularly important for real-time and large-scale applications where 
   </div>
 </div>
 
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-6" style="text-align: center;">
+      <img src="/assets/publis/audioseal/speed.png" class="img-fluid thumbnail mt-2" alt="">
+    </div>
+  </div>
+</div>
+
 ### Watermark robustness to attacks
 
 We also evaluated the robustness of AudioSeal to various adversarial attacks:
@@ -286,6 +280,13 @@ We also evaluated the robustness of AudioSeal to various adversarial attacks:
 
 Our findings suggest that as long as the detector’s weights are kept confidential, the effectiveness of these attacks is limited.
 
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-6" style="text-align: center;">
+      <img src="/assets/publis/audioseal/attacks.png" class="img-fluid thumbnail mt-2" alt="">
+    </div>
+  </div>
+</div>
 
 ## Conclusion
 
