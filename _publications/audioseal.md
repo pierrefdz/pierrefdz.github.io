@@ -103,7 +103,7 @@ For instance, for an audio where the watermark is present between 5s and 7.5s, t
 
 <div class="container">
   <div class="row justify-content-center">
-    <div class="col-md-6" style="text-align: center;">
+    <div class="col-md-9" style="text-align: center;">
       <img src="/assets/publis/audioseal/qual.png" class="img-fluid thumbnail mt-2" alt="">
     </div>
   </div>
@@ -166,7 +166,7 @@ Each pair consists of an original audio and its watermarked counterpart.
     </audio>
   </div>
 </div>
-<div class="row mt-4">
+<div class="row mt-4 mb-4">
   <div class="col-md-6">
     <audio controls>
       <source src="/assets/publis/audioseal/samples/4_ori.wav" type="audio/wav">
@@ -182,7 +182,6 @@ Each pair consists of an original audio and its watermarked counterpart.
 </div>
 
 Here are some other examples from a music dataset:
-
 <div class="row mt-4">
   <div class="col-md-6">
     <h6>Original Audio</h6>
@@ -199,7 +198,7 @@ Here are some other examples from a music dataset:
     </audio>
   </div>
 </div>
-<div class="row mt-4">
+<div class="row mt-4 mb-4">
   <div class="col-md-6">
     <audio controls>
       <source src="/assets/publis/audioseal/samples/6_ori.wav" type="audio/wav">
@@ -215,8 +214,7 @@ Here are some other examples from a music dataset:
 </div>
 
 and from an environmental sounds dataset:
-
-<div class="row mt-4">
+<div class="row mt-4 mb-4">
   <div class="col-md-6">
     <h6>Original Audio</h6>
     <audio controls>
@@ -235,7 +233,7 @@ and from an environmental sounds dataset:
 
 The watermark is also detectable when music is added to the audio in the background of a watermarked speech:
 
-<div class="row mt-4">
+<div class="row mt-4 mb-4">
   <div class="col-md-6">
     <h6>Watermarked Speech</h6>
     <audio controls>
