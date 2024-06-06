@@ -147,6 +147,39 @@ Each pair consists of an original audio and its watermarked counterpart.
     </audio>
   </div>
 </div>
+<div class="row mt-4">
+  <div class="col-md-6">
+    <h5>Original Audio</h5>
+    <audio controls>
+      <source src="assets/publis/audioseal/samples/3_ori.wav" type="audio/wav">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+  <div class="col-md-6">
+    <h5>Watermarked Audio</h5>
+    <audio controls>
+      <source src="assets/publis/audioseal/samples/3_wm.wav" type="audio/wav">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+</div>
+<div class="row mt-4">
+  <div class="col-md-6">
+    <h5>Original Audio</h5>
+    <audio controls>
+      <source src="assets/publis/audioseal/samples/4_ori.wav" type="audio/wav">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+  <div class="col-md-6">
+    <h5>Watermarked Audio</h5>
+    <audio controls>
+      <source src="assets/publis/audioseal/samples/4_wm.wav" type="audio/wav">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+</div>
+
 
 ### Compared to passive detection
 
