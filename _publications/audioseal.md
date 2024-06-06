@@ -100,7 +100,14 @@ The detector comprises an encoder, a transposed convolution, and a linear layer.
 
 The detector is designed to predict the presence of the watermark and optional bits at each time step. 
 For instance, for an audio where the watermark is present between 5s and 7.5s, the detector probability output will look like:
-<img src="/assets/publis/audioseal/qual.png" class="img-fluid thumbnail mt-2" alt="">
+
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-6" style="text-align: center;">
+      <img src="/assets/publis/audioseal/qual.png" class="img-fluid thumbnail mt-2" alt="">
+    </div>
+  </div>
+</div>
 
 This allows for:
 - **Detection**: we use a threshold on the average detector's output to decide if the watermark is present or not.
