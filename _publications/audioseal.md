@@ -265,11 +265,6 @@ This is particularly important for real-time and large-scale applications where 
     <div class="col-md-6" style="text-align: center;">
       <img src="/assets/publis/audioseal/robustness_tab.png" class="img-fluid thumbnail mt-2" alt="">
     </div>
-  </div>
-</div>
-
-<div class="container">
-  <div class="row justify-content-center">
     <div class="col-md-6" style="text-align: center;">
       <img src="/assets/publis/audioseal/speed.png" class="img-fluid thumbnail mt-2" alt="">
     </div>
