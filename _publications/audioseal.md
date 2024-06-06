@@ -71,7 +71,6 @@ AudioSeal consists of two main components:
 The generator is trained to produce a watermark that is imperceptible to the human ear, and robust to common audio processing operations such as compression, re-encoding, and noise addition.
 The detector is trained to predict the presence of the watermark at each time step, and is designed to be fast and suitable for real-life applications where watermarked audio is embedded in a stream of (often non-watermarked) audio.
 
-
 ### Model training
 
 <img src="/assets/publis/audioseal/training.png" class="img-fluid thumbnail mt-2" alt="">
@@ -84,6 +83,8 @@ The training of AudioSeal involves a joint optimization of the generator and det
 
 - The detector model processes the original and watermarked signals, outputting a soft decision at every time step. The detector is trained to maximize its accuracy while minimizing the perceptual difference between the original and watermarked audio.
 
+We optimize two classes of functions: perceptual loss functions, which measure the perceptual difference between the original and watermarked audio, and detection loss functions, which measure the difference between the detector’s output and the ground truth.
+They make sure that the watermark is both imperceptible and robust to audio editing.
 We also extend AudioSeal to support multi-bit watermarking, allowing an audio to be attributed to a specific model or version without affecting the detection signal.
 
 ### Model architectures
@@ -110,6 +111,42 @@ This allows for:
 ## Main results
 
 ### Examples
+
+Here are some examples. 
+Each pair consists of an original audio and its watermarked counterpart.
+
+<div class="row">
+  <div class="col-md-6">
+    <h5>Original Audio</h5>
+    <audio controls>
+      <source src="assets/publis/audioseal/samples/1_ori.wav" type="audio/wav">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+  <div class="col-md-6">
+    <h5>Watermarked Audio</h5>
+    <audio controls>
+      <source src="assets/publis/audioseal/samples/1_wm.wav" type="audio/wav">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+</div>
+<div class="row mt-4">
+  <div class="col-md-6">
+    <h5>Original Audio</h5>
+    <audio controls>
+      <source src="assets/publis/audioseal/samples/2_ori.wav" type="audio/wav">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+  <div class="col-md-6">
+    <h5>Watermarked Audio</h5>
+    <audio controls>
+      <source src="assets/publis/audioseal/samples/2_wm.wav" type="audio/wav">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+</div>
 
 ### Compared to passive detection
 
