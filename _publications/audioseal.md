@@ -266,7 +266,16 @@ AudioSeal significantly outperforms passive detection methods, achieving near-pe
 
 ### Compared to the current SOTA watermarking method
 
-Compared to the current state-of-the-art watermarking method, WavMark, AudioSeal achieves better perceptual quality, higher robustness to various audio editing techniques, and significantly faster detection speed. This is particularly important for real-time and large-scale applications where most content is not watermarked.
+Compared to the current state-of-the-art watermarking method, WavMark, AudioSeal achieves better perceptual quality, higher robustness to various audio editing techniques, and significantly faster detection speed (*up to 1000x faster*). 
+This is particularly important for real-time and large-scale applications where most content is not watermarked.
+
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-6" style="text-align: center;">
+      <img src="/assets/publis/audioseal/robustness_tab.png" class="img-fluid thumbnail mt-2" alt="">
+    </div>
+  </div>
+</div>
 
 ### Watermark robustness to attacks
 
