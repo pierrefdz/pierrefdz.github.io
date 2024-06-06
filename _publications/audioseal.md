@@ -174,6 +174,91 @@ Each pair consists of an original audio and its watermarked counterpart.
   </div>
 </div>
 
+Here are some other examples from a music dataset:
+
+<div class="row mt-4">
+  <div class="col-md-6">
+    <h6>Original Audio</h6>
+    <audio controls>
+      <source src="/assets/publis/audioseal/samples/5_ori.wav" type="audio/wav">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+  <div class="col-md-6">
+    <h6>Watermarked Audio</h6>
+    <audio controls>
+      <source src="/assets/publis/audioseal/samples/5_wm.wav" type="audio/wav">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+</div>
+<div class="row mt-4">
+  <div class="col-md-6">
+    <audio controls>
+      <source src="/assets/publis/audioseal/samples/6_ori.wav" type="audio/wav">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+  <div class="col-md-6">
+    <audio controls>
+      <source src="/assets/publis/audioseal/samples/6_wm.wav" type="audio/wav">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+</div>
+
+and from an environmental sounds dataset:
+
+<div class="row mt-4">
+  <div class="col-md-6">
+    <h6>Original Audio</h6>
+    <audio controls>
+      <source src="/assets/publis/audioseal/samples/7_ori.wav" type="audio/wav">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+  <div class="col-md-6">
+    <h6>Watermarked Audio</h6>
+    <audio controls>
+      <source src="/assets/publis/audioseal/samples/7_wm.wav" type="audio/wav">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+</div>
+<div class="row mt-4">
+  <div class="col-md-6">
+    <audio controls>
+      <source src="/assets/publis/audioseal/samples/8_ori.wav" type="audio/wav">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+  <div class="col-md-6">
+    <audio controls>
+      <source src="/assets/publis/audioseal/samples/8_wm.wav" type="audio/wav">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+</div>
+
+The watermark is also detectable when music is added to the audio in the background of a watermarked speech:
+
+<div class="row mt-4">
+  <div class="col-md-6">
+    <h6>Original Audio</h6>
+    <audio controls>
+      <source src="/assets/publis/audioseal/samples/9_ori.wav" type="audio/wav">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+  <div class="col-md-6">
+    <h6>Watermarked Audio</h6>
+    <audio controls>
+      <source src="/assets/publis/audioseal/samples/9_wm.wav" type="audio/wav">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+</div>
+
 
 ### Compared to passive detection
 
