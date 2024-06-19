@@ -278,7 +278,7 @@ We also evaluated the robustness of AudioSeal to various adversarial attacks:
 - semi black-box by retraining other generators/detectors pairs, and attacking the new detector,
 - black-box attacks by training a classifier to distinguish watermarked from non-watermarked audio, and using it as proxy to attack the detector.
 
-Our findings suggest that as long as the detector’s weights are kept confidential, the effectiveness of these attacks is limited.
+Our findings suggest that the more information is disclosed about the watermarking algorithm, the more vulnerable it is.
 
 <div class="container">
   <div class="row justify-content-center">
