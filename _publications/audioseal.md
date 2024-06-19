@@ -28,7 +28,7 @@ authors:
     url: "https://scholar.google.de/citations?user=jk2BlO4AAAAJ&hl=en"
     affiliations: [FAIR Meta]
 
-journal: arXiv (pre-print)
+journal: ICML
 arxiv: https://arxiv.org/abs/2401.17264
 bib: /assets/bibliography/audioseal.txt
 pdf: /assets/publis/audioseal/paper.pdf 
@@ -297,4 +297,6 @@ AudioSeal represents a significant advancement for audio content detection, offe
 - [`arXiv`]({{page.arxiv}})
 - [`Code`]({{page.code}})
 - [`PDF`]({{page.pdf}})
+- [`Blog`](https://ai.meta.com/blog/meta-fair-research-new-releases/)
+- [`Press`](https://www.technologyreview.com/2024/06/18/1094009/meta-has-created-a-way-to-watermark-ai-generated-speech/)
 - [`BibTeX`]({{page.bib}})
