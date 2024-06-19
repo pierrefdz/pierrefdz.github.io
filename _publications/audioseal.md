@@ -15,9 +15,6 @@ authors:
   - name: Pierre Fernandez
     url: "https://pierrefdz.github.io/"
     affiliations: [FAIR Meta, Inria]
-  - name: Hady Elsahar
-    url: "https://www.hadyelsahar.io/"
-    affiliations: [FAIR Meta]
   - name: Teddy Furon
     url: "https://scholar.google.com/citations?hl=en&user=aLUbWzAAAAAJ"
     affiliations: [Inria]
@@ -26,6 +23,9 @@ authors:
     affiliations: [Kyutai]
   - name: Tuan Tran
     url: "https://scholar.google.de/citations?user=jk2BlO4AAAAJ&hl=en"
+    affiliations: [FAIR Meta]
+  - name: Hady Elsahar
+    url: "https://www.hadyelsahar.io/"
     affiliations: [FAIR Meta]
 
 journal: ICML
