@@ -6,7 +6,7 @@ title: Pierre Fernandez # the website title (if blank, full name will be used in
 first_name: Pierre
 last_name: Fernandez
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  PhD student at FAIR, watermarking generative models
+  Research Scientist at FAIR
 footer_text: >
 
 icon: assets/img/icon.png # the emoji used as the favicon
