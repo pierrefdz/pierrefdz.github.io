@@ -74,4 +74,5 @@ Ranked 4° at the entrance exams of the École polytechnique -->
 - Hobbies
     - Tennis 🎾 (I am a big fan of Rafael Nadal 🐂) at competitive level, climbing 🧗‍♂️and running 🏃🏼.
     - Drawing & Graphic design 
-    - Playing 'Somewhere over the rainbow' with my ukulele 🎵 --> -->
+    - Playing 'Somewhere over the rainbow' with my ukulele 🎵 
+-->

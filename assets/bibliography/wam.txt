@@ -1,0 +1,6 @@
+@article{sander2024watermark,
+  title={Watermark Anything With Localized Messages},
+  author={Sander, Tom and Fernandez, Pierre and Durmus, Alain and Furon, Teddy and Douze, Matthijs},
+  journal={arXiv:2411.07231},
+  year={2024}
+}

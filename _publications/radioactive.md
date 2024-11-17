@@ -25,7 +25,7 @@ authors:
     url: "https://scholar.google.com/citations?hl=en&user=aLUbWzAAAAAJ"
     affiliations: [Inria]
 
-journal: arXiv (pre-print)
+journal: Neural Information Processing Systems (NeurIPS)
 arxiv: https://arxiv.org/abs/2402.14904
 bib: /assets/bibliography/radioactive.txt
 pdf: /assets/publis/radioactive/paper.pdf 
