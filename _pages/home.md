@@ -24,9 +24,8 @@ news: true  # includes a list of news items
   - the image watermarking algorithm used by [Imagine](https://imagine.meta.com/);
   - [Stable Signature](https://ai.meta.com/blog/stable-signature-watermarking-generative-ai/), a method to watermark generative models even if they are open-sourced.
 
-  I did my PhD at FAIR and INRIA Rennes, advised by [Matthijs Douze](https://scholar.google.fr/citations?user=0eFZtREAAAAJ&hl=fr), [Hervé Jégou](https://scholar.google.fr/citations?user=1lcY2z4AAAAJ&hl=fr) and [Teddy Furon](https://scholar.google.fr/citations?user=aLUbWzAAAAAJ&hl=fr). 
+  I did my PhD at FAIR and Inria Rennes, advised by [Matthijs Douze](https://scholar.google.fr/citations?user=0eFZtREAAAAJ&hl=fr), [Hervé Jégou](https://scholar.google.fr/citations?user=1lcY2z4AAAAJ&hl=fr) and [Teddy Furon](https://scholar.google.fr/citations?user=aLUbWzAAAAAJ&hl=fr). 
   Prior to my PhD I studied at [École polytechnique](https://www.polytechnique.edu/en), majoring in computer science and mathematics for visual computing. I also hold a Master's degree from [École des Ponts ](https://www.ecoledesponts.fr/en) and from [Paris-Saclay University](https://www.universite-paris-saclay.fr/en) where I studied Mathematics for vision and learning. 
-  Prior to my PhD, I studied at École polytechnique, majoring in computer science and mathematics for visual computing. I also hold a Master's degree from École des Ponts and from Paris-Saclay University.
 
   <!-- I am really excited in the developement of Artificial Intelligence and of its applications in the fields of every day's life.  -->
   </div>
