@@ -25,7 +25,7 @@ authors:
     url: "https://scholar.google.com/citations?user=0eFZtREAAAAJ&hl=en"
     affiliations: [FAIR Meta]
 
-journal: arXiv (pre-print)
+journal: International Conference on Learning Representations (ICLR)
 arxiv: https://arxiv.org/abs/2411.07231
 bib: /assets/bibliography/wam.txt
 pdf: /assets/publis/wam/paper.pdf 
