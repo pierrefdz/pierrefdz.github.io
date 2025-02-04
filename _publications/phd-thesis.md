@@ -15,6 +15,7 @@ authors:
     affiliations: [FAIR Meta, Inria]
 
 arxiv: https://arxiv.org/abs/?
+img: /assets/publis/phd-thesis/splash.png
 
 header-includes:
   - \usepackage[ruled,vlined,linesnumbered]{algorithm2e}
