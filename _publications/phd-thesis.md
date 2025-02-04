@@ -22,55 +22,53 @@ header-includes:
 
 ## List of contributions
 
-
-### Image
+**Images**
 
 - Watermarking Images in Self-Supervised Latent Spaces  
-  - [arXiv](https://arxiv.org/abs/2112.09581)
-  - [Code](https://github.com/facebookresearch/ssl_watermarking)
+  - [arxiv.org/abs/2112.09581](https://arxiv.org/abs/2112.09581)
+  - [github.com/facebookresearch/ssl_watermarking](https://github.com/facebookresearch/ssl_watermarking)
 - Active Image Indexing  
-  - [arXiv](https://arxiv.org/abs/2210.10620)  
-  - [Code](https://github.com/facebookresearch/active_indexing)
+  - [arxiv.org/abs/2210.10620](https://arxiv.org/abs/2210.10620)  
+  - [github.com/facebookresearch/active_indexing](https://github.com/facebookresearch/active_indexing)
 - The Stable Signature: Rooting Watermarks in Latent Diffusion Models  
-  - [arXiv](https://arxiv.org/abs/2303.15435)
-  - [Code](https://github.com/facebookresearch/stable_signature)
+  - [arxiv.org/abs/2303.15435](https://arxiv.org/abs/2303.15435)
+  - [github.com/facebookresearch/stable_signature](https://github.com/facebookresearch/stable_signature)
 - Watermark Anything With Localized Messages  
-  - [arXiv](https://arxiv.org/abs/2411.07231) 
-  - [Code](https://github.com/facebookresearch/watermark-anything)
+  - [arxiv.org/abs/2411.07231](https://arxiv.org/abs/2411.07231) 
+  - [github.com/facebookresearch/watermark-anything](https://github.com/facebookresearch/watermark-anything)
 
-### Audio
+**Audio**
 
 - Proactive Detection of Voice Cloning with Localized Watermarking  
-  - [arXiv](https://arxiv.org/abs/2401.17264)  
-  - [Code](https://github.com/facebookresearch/audioseal)
+  - [arxiv.org/abs/2401.17264](https://arxiv.org/abs/2401.17264)  
+  - [github.com/facebookresearch/audioseal](https://github.com/facebookresearch/audioseal)
 - Latent Watermarking of Audio Generative Models
-  - [arXiv](https://arxiv.org/abs/2409.02915)
+  - [arxiv.org/abs/2409.02915](https://arxiv.org/abs/2409.02915)
 
-### Text
+**Text**
 
 - Three Bricks to Consolidate Watermarks for Large Language Models
-  - [arXiv](https://arxiv.org/abs/2308.00113)
-  - [Code](https://github.com/facebookresearch/three_bricks)
+  - [arxiv.org/abs/2308.00113](https://arxiv.org/abs/2308.00113)
+  - [github.com/facebookresearch/three_bricks](https://github.com/facebookresearch/three_bricks)
 - Watermarking Makes Language Models Radioactive  
-  - [arXiv](https://arxiv.org/abs/2402.14904)  
-  - [Code](https://github.com/facebookresearch/radioactive-watermark)
+  - [arxiv.org/abs/2402.14904](https://arxiv.org/abs/2402.14904)  
+  - [github.com/facebookresearch/radioactive-watermark](https://github.com/facebookresearch/radioactive-watermark)
 
-### Models
+**Video**
 
 - Functional Invariants to Watermark Large Transformers  
-  - [arXiv](https://arxiv.org/abs/2310.11446)  
+  - [arxiv.org/abs/2310.11446](https://arxiv.org/abs/2310.11446)  
 
-### Other projects
+**Miscellaneous**
 
 - DINOv2: Learning Robust Visual Features without Supervision  
-  - [arXiv](https://arxiv.org/abs/2304.07193)  
-  - [Code](https://github.com/facebookresearch/dinov2)
+  - [arxiv.org/abs/2304.07193](https://arxiv.org/abs/2304.07193)  
+  - [github.com/facebookresearch/dinov2](https://github.com/facebookresearch/dinov2)
 - A Cookbook of Self-Supervised Learning  
-  - [arXiv](https://arxiv.org/abs/2304.12210)  
-  - (No code)
+  - [arxiv.org/abs/2304.12210](https://arxiv.org/abs/2304.12210)  
 - Seamless: Multilingual Expressive and Streaming Speech Translation  
-  - [arXiv](https://arxiv.org/abs/todo)  
-  - [Code](https://github.com/facebookresearch/seamless_communication)
+  - [arxiv.org/abs/2312.05187](https://arxiv.org/abs/2312.05187)  
+  - [github.com/facebookresearch/seamless_communication](https://github.com/facebookresearch/seamless_communication)
 
 ## Slides (FR)
 
