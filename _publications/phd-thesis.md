@@ -14,7 +14,7 @@ authors:
     url: "https://pierrefdz.github.io/"
     affiliations: [FAIR Meta, Inria]
 
-arxiv: https://arxiv.org/abs/?
+arxiv: https://arxiv.org/abs/2502.05215
 img: /assets/publis/phd-thesis/splash.png
 
 header-includes:
