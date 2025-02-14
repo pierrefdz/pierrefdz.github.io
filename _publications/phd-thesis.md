@@ -48,7 +48,8 @@ header-includes:
   - Model for localized watermarking to detect AI-generated speech with precision. The detector directly predicts watermark presence for each time step, making it fast and suitable for voice cloning applications.
   - 📄 [arxiv.org/abs/2401.17264](https://arxiv.org/abs/2401.17264)  
   - 💻 [github.com/facebookresearch/audioseal](https://github.com/facebookresearch/audioseal)
-- Latent Watermarking of Audio Generative Models: A method to watermark audio generative models by embedding signatures in their latent representations.
+- Latent Watermarking of Audio Generative Models
+  - A method to watermark audio generative models by watermarking their training data in a way that is robust to the audio tokenizer.
   - 📄 [arxiv.org/abs/2409.02915](https://arxiv.org/abs/2409.02915)
 
 **Text**
