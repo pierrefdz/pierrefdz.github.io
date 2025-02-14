@@ -68,7 +68,7 @@ header-includes:
   - 📄 [arxiv.org/abs/2402.14904](https://arxiv.org/abs/2402.14904)  
   - 💻 [github.com/facebookresearch/radioactive-watermark](https://github.com/facebookresearch/radioactive-watermark)
 
-**Video**
+**Model**
 
 - [Functional Invariants to Watermark Large Transformers](/publications/invariancewm) \
 *A method to watermark transformer models using functional invariants while preserving model utility.*
