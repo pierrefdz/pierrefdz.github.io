@@ -14,7 +14,7 @@ authors:
     url: "https://pierrefdz.github.io/"
     affiliations: [FAIR Meta, Inria]
 
-arxiv: https://arxiv.org/abs/?
+arxiv: https://www.arxiv.org/abs/2502.05215
 img: /assets/publis/phd-thesis/splash.png
 
 header-includes:
@@ -90,7 +90,9 @@ header-includes:
   - 📄 [arxiv.org/abs/2312.05187](https://arxiv.org/abs/2312.05187)  
   - 💻 [github.com/facebookresearch/seamless_communication](https://github.com/facebookresearch/seamless_communication)
 
+## Links
 
+- [`arXiv`]({{page.arxiv}})
 
 ## Slides
 
