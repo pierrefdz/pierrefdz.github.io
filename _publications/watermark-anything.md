@@ -89,6 +89,12 @@ With regulatory acts (e.g., EU AI Act, US AI Governance) requiring the identific
 - Tracking and identifying specific edits in mixed or manipulated content.
 - Enhanced copyright protection and tamper localization.
 
+## Slides
+
+<p align="center" class="img-fluid mt-2">
+  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRU0OlDj7y7xhiImD3U8sef5miLddwGXVzlFXtwiOUyT89N8spUJKxVt6qEwH8waqWqSVxlPKbPdNkj/embed?start=false&loop=false&delayms=1000" frameborder="0" class="video" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</p>
+
 ## Links
 
 - [`Code`]({{page.code}})
