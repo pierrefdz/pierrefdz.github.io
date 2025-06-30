@@ -25,13 +25,13 @@ img: /assets/publis/videoseal/splash.png
 
 ---
 
+<img src="/assets/publis/videoseal/splash.png" 
+class="img-fluid thumbnail mt-2" alt="Active Indexing - overview">
+
 Video Seal introduces a novel open-source framework for neural video watermarking, combining a jointly trained embedder and extractor to ensure robustness and efficiency. The method leverages multistage training—image pre-training, hybrid post-training, and extractor fine-tuning—alongside temporal watermark propagation to avoid per-frame embedding. Differentiable augmentations, including common video codecs, are applied during training to simulate real-world transformations and improve resilience.
 
 The accompanying codebase provides end-to-end pipelines for training and inference. Key assets include TorchScript models, training scripts (`train.py`), inference tools (`inference_av.py`, `inference_streaming.py`), evaluation modules (`videoseal/evals/full.py`), and Jupyter notebooks for interactive exploration. Pre-trained checkpoints and a live demo endpoint are also available to facilitate rapid experimentation.
 
-## Quick Start
-
-Official implementation of Video Seal: Open and Efficient Video Watermarking. State-of-the-art open-sourced models for video and image watermarking.
 
 ## Links
 
