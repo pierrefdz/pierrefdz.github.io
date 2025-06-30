@@ -3,8 +3,8 @@ layout: publication_page
 show: true
 noheader: true
 
-title: "Video Seal: Open and Efficient Video Watermarking"
-description: Official implementation of Video Seal: Open and Efficient Video Watermarking
+title: 'Video Seal: Open and Efficient Video Watermarking'
+description: 
 
 date: 2024-12-17
 
@@ -23,14 +23,7 @@ arxiv: https://arxiv.org/abs/2412.09492
 code: https://github.com/facebookresearch/videoseal
 img: /assets/publis/videoseal/splash.png
 
-header-includes:
-  - \usepackage[ruled,vlined,linesnumbered]{algorithm2e}
 ---
-
-<!-- center -->
-<p align="center">
-  <img src="{{ page.img }}" class="img-fluid thumbnail mt-2" style="max-width: 75%;">
-</p>
 
 Video Seal introduces a novel open-source framework for neural video watermarking, combining a jointly trained embedder and extractor to ensure robustness and efficiency. The method leverages multistage training—image pre-training, hybrid post-training, and extractor fine-tuning—alongside temporal watermark propagation to avoid per-frame embedding. Differentiable augmentations, including common video codecs, are applied during training to simulate real-world transformations and improve resilience.
 
