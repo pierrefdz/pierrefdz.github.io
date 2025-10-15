@@ -1,0 +1,7 @@
+@inproceedings{jovanovic2025wmar,
+  title={Watermarking Autoregressive Image Generation},
+  author={Nikola Jovanović and Ismail Labiad and Tomáš Souček and Martin Vechev and Pierre Fernandez},
+  booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
+  year={2025},
+  url={https://arxiv.org/abs/2506.16349}
+}
