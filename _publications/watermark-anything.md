@@ -27,7 +27,7 @@ authors:
 
 journal: International Conference on Learning Representations (ICLR)
 arxiv: https://arxiv.org/abs/2411.07231
-bib: /assets/bibliography/wam.txt
+bib: /assets/publis/wam/bib.txt
 pdf: /assets/publis/wam/paper.pdf 
 img: /assets/publis/wam/splash.png
 code: https://github.com/facebookresearch/watermark-anything

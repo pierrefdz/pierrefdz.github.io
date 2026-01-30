@@ -1,0 +1,5 @@
+@misc{fernandez2021iapi,
+  title={Intelligence Artificielle et Propriété Intellectuelle},
+  author={Fernandez, Pierre},
+  year={2021}
+}

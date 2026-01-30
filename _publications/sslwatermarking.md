@@ -26,7 +26,7 @@ authors:
     affiliations: [FAIR Meta]
 
 journal: International Conference on Acoustics, Speech, and Signal Processing (ICASSP)
-bib: /assets/bibliography/sslwatermarking.txt
+bib: /assets/publis/sslwatermarking/bib.txt
 pdf: /assets/publis/sslwatermarking/paper.pdf 
 arxiv: https://arxiv.org/abs/2112.09581
 publisher: https://ieeexplore.ieee.org/document/9746058

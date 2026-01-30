@@ -23,7 +23,7 @@ authors:
     affiliations: [Inria]
 
 journal: International Conference on Learning Representations (ICLR)
-bib: /assets/bibliography/activeindexing.txt
+bib: /assets/publis/activeindexing/bib.txt
 pdf: /assets/publis/activeindexing/paper.pdf 
 arxiv: https://arxiv.org/abs/2210.10620
 publisher: https://openreview.net/forum?id=K9RHxPpjn2

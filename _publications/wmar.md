@@ -19,7 +19,7 @@ authors:
     affiliations: [FAIR Meta]
 
 journal: arXiv preprint arXiv:2506.16349
-bib: /assets/bibliography/wmar.txt
+bib: /assets/publis/wmar/bib.txt
 pdf: https://arxiv.org/pdf/2506.16349.pdf
 arxiv: https://arxiv.org/abs/2506.16349
 code: https://github.com/facebookresearch/wmar

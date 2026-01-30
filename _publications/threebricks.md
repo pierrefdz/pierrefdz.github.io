@@ -25,7 +25,7 @@ authors:
 journal: International Workshop on Information Forensics and Security (WIFS) - Best Student Paper award
 arxiv: https://arxiv.org/abs/2308.00113
 code: https://github.com/facebookresearch/three_bricks
-bib: /assets/bibliography/threebricks.txt
+bib: /assets/publis/threebricks/bib.txt
 pdf: /assets/publis/threebricks/paper.pdf 
 img: /assets/publis/threebricks/splash.png
 

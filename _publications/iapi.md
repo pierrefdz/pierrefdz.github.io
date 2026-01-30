@@ -13,7 +13,7 @@ authors:
     url: "https://pierrefdz.github.io/"
     affiliations: [Personal]
 
-bib: /assets/bibliography/iapi.txt
+bib: /assets/publis/iapi/bib.txt
 pdf: /assets/publis/iapi/ia_et_pi.pdf 
 img: /assets/publis/iapi/splash.png
 

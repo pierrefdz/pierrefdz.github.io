@@ -1,0 +1,7 @@
+@inproceedings{fernandez2024functional,
+  title={Functional Invariants to Watermark Large Transformers},
+  author={Fernandez, Pierre and Couairon, Guillaume and Furon, Teddy and Douze, Matthijs},
+  booktitle={IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  year={2024},
+  organization={IEEE},
+}

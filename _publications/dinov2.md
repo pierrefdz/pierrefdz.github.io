@@ -16,7 +16,7 @@ authors:
   - name: Daniel Haziza, Francisco Massa, Alaaeldin El-Nouby, Mahmoud Assran, Nicolas Ballas, Wojciech Galuba, Russell Howes, Po-Yao Huang, Shang-Wen Li, Ishan Misra, Michael Rabbat, Vasu Sharma, Gabriel Synnaeve, Hu Xu, Hervé Jegou, Julien Mairal, Patrick Labatut, Armand Joulin, Piotr Bojanowski
 
 journal: Transactions on Machine Learning Research (TMLR)
-bib: /assets/bibliography/dinov2.txt
+bib: /assets/publis/dinov2/bib.txt
 pdf: /assets/publis/dinov2/paper.pdf 
 arxiv: https://arxiv.org/abs/2304.07193
 code: https://github.com/facebookresearch/dinov2

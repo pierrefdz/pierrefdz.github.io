@@ -20,7 +20,7 @@ authors:
   - name: Amir Bar, Hamed Pirsiavash, Yann LeCun, Micah Goldblum
 
 journal: CoRR 2023
-bib: /assets/bibliography/sslcookbook.txt
+bib: /assets/publis/sslcookbook/bib.txt
 pdf: /assets/publis/sslcookbook/paper.pdf 
 arxiv: https://arxiv.org/abs/2304.12210
 img: /assets/publis/sslcookbook/splash.png

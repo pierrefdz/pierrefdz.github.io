@@ -1,7 +1,0 @@
-@inproceedings{fernandez2022sslwatermarking,
-  title={Watermarking Images in Self-Supervised Latent Spaces},
-  author={Fernandez, Pierre and Sablayrolles, Alexandre and Furon, Teddy and Jégou, Hervé and Douze, Matthijs},
-  booktitle={IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
-  year={2022},
-  organization={IEEE},
-}

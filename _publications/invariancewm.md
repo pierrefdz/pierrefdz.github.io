@@ -24,7 +24,7 @@ authors:
 
 journal: International Conference on Acoustics, Speech, and Signal Processing (ICASSP)
 arxiv: https://arxiv.org/abs/2310.11446
-bib: /assets/bibliography/invariancewm.txt
+bib: /assets/publis/invariancewm/bib.txt
 pdf: /assets/publis/invariancewm/paper.pdf 
 img: /assets/publis/invariancewm/splash.png
 

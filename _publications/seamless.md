@@ -12,7 +12,7 @@ authors:
   - name: Seamless Communication
 
 journal: CoRR 2023
-bib: /assets/bibliography/seamless.txt
+bib: /assets/publis/seamless/bib.txt
 pdf: /assets/publis/seamless/seamless.pdf 
 arxiv: https://arxiv.org/abs/2312.05187
 code: https://github.com/facebookresearch/seamless_communication

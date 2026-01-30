@@ -1,0 +1,6 @@
+@article{soucek2025pixelseal,
+  title={Pixel Seal: Adversarial-only Training for Invisible Image and Video Watermarking},
+  author={Sou{\v{c}}ek, Tom{\'a}{\v{s}} and Fernandez, Pierre and Elsahar, Hady and Rebuffi, Sylvestre-Alvise and Lacatusu, Valeriu and Tran, Tuan and Sander, Tom and Mourachko, Alexandre},
+  journal={arXiv preprint arXiv:2512.16874},
+  year={2025}
+}

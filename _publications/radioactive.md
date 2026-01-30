@@ -27,7 +27,7 @@ authors:
 
 journal: Neural Information Processing Systems (NeurIPS)
 arxiv: https://arxiv.org/abs/2402.14904
-bib: /assets/bibliography/radioactive.txt
+bib: /assets/publis/radioactive/bib.txt
 pdf: /assets/publis/radioactive/paper.pdf 
 img: /assets/publis/radioactive/splash.png
 

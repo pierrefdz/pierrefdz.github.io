@@ -17,7 +17,7 @@ authors:
   - name: Alexandre Mourachko
 
 journal: arXiv preprint arXiv:2412.09492
-bib: /assets/bibliography/videoseal.txt
+bib: /assets/publis/videoseal/bib.txt
 pdf: https://arxiv.org/pdf/2412.09492.pdf
 arxiv: https://arxiv.org/abs/2412.09492
 code: https://github.com/facebookresearch/videoseal

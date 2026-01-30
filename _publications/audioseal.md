@@ -30,7 +30,7 @@ authors:
 
 journal: ICML
 arxiv: https://arxiv.org/abs/2401.17264
-bib: /assets/bibliography/audioseal.txt
+bib: /assets/publis/audioseal/bib.txt
 pdf: /assets/publis/audioseal/paper.pdf 
 img: /assets/publis/audioseal/splash.png
 code: https://github.com/facebookresearch/audioseal

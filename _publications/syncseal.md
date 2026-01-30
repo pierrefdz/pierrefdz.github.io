@@ -22,7 +22,7 @@ authors:
   - name: Alexandre Mourachko
 
 journal: arXiv preprint arXiv:2509.15208
-bib: /assets/bibliography/syncseal.txt
+bib: /assets/publis/syncseal/bib.txt
 pdf: https://arxiv.org/pdf/2509.15208.pdf
 arxiv: https://arxiv.org/abs/2509.15208
 code: https://github.com/facebookresearch/wmar/tree/main/syncseal

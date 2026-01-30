@@ -1,0 +1,7 @@
+@article{fernandez2025geometric,
+  title={Geometric Image Synchronization with Deep Watermarking},
+  author={Pierre Fernandez and Tomáš Souček and Nikola Jovanović and Hady Elsahar and Sylvestre-Alvise Rebuffi and Valeriu Lacatusu and Tuan Tran and Alexandre Mourachko},
+  journal={arXiv preprint arXiv:2509.15208},
+  year={2025},
+  url={https://arxiv.org/abs/2509.15208}
+}
