@@ -1,6 +1,7 @@
-@article{fernandez2025posthoc,
-  title={How Good is Post-Hoc Watermarking With Language Model Rephrasing?},
-  author={Fernandez, Pierre and Sander, Tom and Elsahar, Hady and Chang, Hongyan and Sou{\v{c}}ek, Tom{\'a}{\v{s}} and Lacatusu, Valeriu and Tran, Tuan and Rebuffi, Sylvestre-Alvise},
-  journal={arXiv preprint arXiv:2512.16904},
-  year={2025}
+@inproceedings{sander2026textseal,
+  title={TextSeal: A Localized LLM Watermark for Provenance \& Distillation Protection},
+  author={Sander, Tom and Chang, Hongyan and Rebuffi, Sylvestre-Alvise and Sou{\v{c}}ek, Tom{\'a}{\v{s}} and Tran, Tuan and Lacatusu, Valeriu and Mourachko, Alexandre and Parimi, Surya and Ropers, Christophe and Moritz, Rashel and Stark, Vanessa and Elsahar, Hady and Fernandez, Pierre},
+  booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
+  year={2026},
+  url={https://arxiv.org/abs/2605.12456}
 }

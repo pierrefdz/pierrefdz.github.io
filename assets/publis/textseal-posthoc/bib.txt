@@ -1,0 +1,6 @@
+@article{fernandez2025posthoc,
+  title={How Good is Post-Hoc Watermarking With Language Model Rephrasing?},
+  author={Fernandez, Pierre and Sander, Tom and Elsahar, Hady and Chang, Hongyan and Sou{\v{c}}ek, Tom{\'a}{\v{s}} and Lacatusu, Valeriu and Tran, Tuan and Rebuffi, Sylvestre-Alvise},
+  journal={arXiv preprint arXiv:2512.16904},
+  year={2025}
+}

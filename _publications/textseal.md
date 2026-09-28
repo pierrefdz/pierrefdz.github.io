@@ -3,42 +3,53 @@ layout: publication_page
 show: true
 noheader: true
 
-title: 'How Good is Post-Hoc Watermarking With Language Model Rephrasing?'
+title: 'TextSeal: A Localized LLM Watermark for Provenance & Distillation Protection'
 description: 
 
-date: 2025-12-18
+date: 2026-05-12
 
 authors:
-  - name: Pierre Fernandez
+  - name: "Tom Sander*"
+    url: "https://sandertom.github.io/"
+    affiliations: [FAIR Meta]
+  - name: Hongyan Chang
+  - name: Sylvestre-Alvise Rebuffi
+  - name: Tomáš Souček
+  - name: Tuan Tran
+  - name: Valeriu Lacatusu
+  - name: Alexandre Mourachko
+  - name: Surya Parimi
+  - name: Christophe Ropers
+  - name: Rashel Moritz
+  - name: Vanessa Stark
+  - name: Hady Elsahar
+  - name: "Pierre Fernandez*"
     url: "https://pierrefdz.github.io/"
     affiliations: [FAIR Meta]
-  - name: Tom Sander
-  - name: Hady Elsahar
-  - name: Hongyan Chang
-  - name: Tomáš Souček
-  - name: Valeriu Lacatusu
-  - name: Tuan Tran
-  - name: Sylvestre-Alvise Rebuffi
 
-journal: arXiv preprint arXiv:2512.16904
+journal: Neural Information Processing Systems (NeurIPS)
 bib: /assets/publis/textseal/bib.txt
 pdf: /assets/publis/textseal/paper.pdf
-arxiv: https://arxiv.org/abs/2512.16904
+arxiv: https://arxiv.org/abs/2605.12456
+code: https://github.com/facebookresearch/textseal
 img: /assets/publis/textseal/splash.png
 
 ---
 
+<small>* Equal contribution.</small>
+
 <img src="/assets/publis/textseal/splash.png" 
-class="img-fluid thumbnail mt-2" alt="Text Seal - overview">
+class="img-fluid thumbnail mt-2" alt="TextSeal - overview">
 
-Generation-time text watermarking embeds statistical signals into text for traceability of AI-generated content. We explore *post-hoc watermarking* where an LLM rewrites existing text while applying generation-time watermarking, to protect copyrighted documents, or detect their use in training or RAG via watermark radioactivity.
+We introduce *TextSeal*, a state-of-the-art watermark for large language models. Building on Gumbel-max sampling, TextSeal introduces dual-key generation to restore output diversity, along with entropy-weighted scoring and multi-region localization for improved detection. It supports serving optimizations such as speculative decoding and multi-token prediction, and does not add any inference overhead.
 
-Unlike generation-time approaches, which is constrained by how LLMs are served, this setting offers additional degrees of freedom for both generation and detection. We investigate how allocating compute (through larger rephrasing models, beam search, multi-candidate generation, or entropy filtering at detection) affects the quality-detectability trade-off.
+TextSeal strictly dominates baselines like SynthID-text in detection strength and is robust to dilution, maintaining confident localized detection even in heavily mixed human/AI documents. The scheme is theoretically distortion-free, and evaluation across reasoning benchmarks confirms that it preserves downstream performance; while a multilingual human evaluation (6,000 A/B comparisons, 5 languages) shows no perceptible quality difference.
 
-Our strategies achieve strong detectability and semantic fidelity on open-ended text such as books. Among our findings, the simple Gumbel-max scheme surprisingly outperforms more recent alternatives under nucleus sampling, and most methods benefit significantly from beam search. However, most approaches struggle when watermarking verifiable text such as code, where we counterintuitively find that smaller models outperform larger ones.
+Beyond its use for provenance detection, TextSeal is also "radioactive": its watermark signal transfers through model distillation, enabling detection of unauthorized use.
 
 ## Links
 
 - [`arXiv`]({{ page.arxiv }})
+- [`Code`]({{ page.code }})
 - [`PDF`]({{ page.pdf }})
 - [`BibTeX`]({{ page.bib }})
